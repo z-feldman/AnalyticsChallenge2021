@@ -1,0 +1,36 @@
+Route,Order,x,y,End
+Comeback,1,0,0,0
+Corner,1,0,0,0
+Cross,1,0,0,0
+Curl,1,0,0,0
+Flat,1,0,0,0
+Go,1,0,0,0
+In,1,0,0,0
+Out,1,0,0,0
+Post,1,0,0,0
+Slant,1,0,0,0
+Underneath Screen,1,0,0,0
+WR Screen,1,0,0,0
+WR Screen,2,2,0,1
+Underneath Screen,2,2,-1,0
+Underneath Screen,3,5,-1,0
+Underneath Screen,4,6,-0.5,1
+Cross,2,3,1,0
+Cross,3,6,1,1
+Slant,2,0,3,0
+Slant,3,6,5,1
+Flat,2,0,1,0
+Flat,3,-6,3,1
+Comeback,2,0,8,0
+Corner,2,0,8,0
+Curl,2,0,8,0
+In,2,0,8,0
+Out,2,0,8,0
+Post,2,0,8,0
+Comeback,3,-2,6,1
+Corner,3,-6,12,1
+Curl,3,2,6,1
+In,3,6,8,1
+Out,3,-6,8,1
+Post,3,6,12,1
+Go,2,0,13,1
