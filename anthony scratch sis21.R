@@ -1,11 +1,10 @@
-setwd('C:/Users/rei1740/Desktop/Anthony/nfl')
 source('https://github.com/ajreinhard/data-viz/raw/master/ggplot/plot_SB.R')
 
-pbp_df <- read.csv('https://raw.githubusercontent.com/SportsInfoSolutions/AnalyticsChallenge2021/main/Data/PlayByPlay.csv', stringsAsFactors = F) %>% tibble
-skill_df <- read_csv('https://raw.githubusercontent.com/SportsInfoSolutions/AnalyticsChallenge2021/main/Data/SkillPositionPlayers.csv') %>% tibble
-info_df <- read_csv('https://raw.githubusercontent.com/SportsInfoSolutions/AnalyticsChallenge2021/main/Data/GameInfo.csv') %>% tibble
-tot_pts_df <- read_csv('https://raw.githubusercontent.com/SportsInfoSolutions/AnalyticsChallenge2021/main/Data/PlayerTotalPoints.csv') %>% tibble
-
+pbp_df <- read.csv('Data/PlayByPlay.csv', stringsAsFactors = F) %>% tibble
+skill_df <- read_csv('Data/SkillPositionPlayers.csv') %>% tibble
+info_df <- read_csv('Data/GameInfo.csv') %>% tibble
+tot_pts_df <- read_csv('Data/PlayerTotalPoints.csv') %>% tibble
+route_mapping <- read_csv('route_mapping.csv')
 
 # take only regular pass plays
 pass_plays_df <- pbp_df %>% 
@@ -20,12 +19,13 @@ skill_df %>%
 
 # get routes and number of potential route runners
 play_side_sum_df <- skill_df %>% 
+  left_join(route_mapping) %>% 
   filter(SideOfCenter != 'NULL') %>% 
   group_by(GameID, EventID, SideOfCenter) %>% 
   arrange(Order_OutsideToInside) %>% 
   summarise(
     side_players = n(),
-    route_combo = paste(Route, collapse = ' | '),
+    route_combo = paste(RouteGroup, collapse = ' | '),
     .groups = 'drop'
   )
 
@@ -84,8 +84,12 @@ pass_plays_df %>%
     epa = mean(as.numeric(EPA), na.rm = T),
     .groups = 'drop'
   ) %>% 
-  arrange(-epa) %>% 
-  filter(n >= 50)
+  filter(n >= 50) %>% 
+  group_by(route_combo) %>% 
+  mutate(n = sum(n)) %>% 
+  pivot_wider(names_from = CoverageScheme, values_from = epa) %>% 
+  arrange(-n) %>% 
+  view
 
 
 
