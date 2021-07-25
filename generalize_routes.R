@@ -27,37 +27,46 @@ pass %>%
   summarize(count = n()) %>%
   arrange(desc(count)) -> routes
 
-# Down to only 35 unique routes now
+
+##### cut down on the number of unique routes ######
+
 pass <- pass %>%
-  mutate(Route = case_when(Route == "Fade" ~ "Go/Fly",
-                           Route == "Sluggo" ~ "Go/Fly",
-                           Route == "Chip" ~ "Blocking",
-                           Route == "Seam" ~ "Go/Fly",
-                           Route == "Fade" ~ "Go/Fly",
-                           Route == "Deep Cross" ~ "Slant",
-                           Route == "Beneath" ~ "Slant",
-                           Route == "Swing" ~ "Wheel",
-                           Route == "Drag" ~ "Dig",
+  filter(!(Route %in% c("NULL", "Blocking", "Pick", "Quick", "Chip"))) %>%
+  filter(!str_detect(Route, "Screen")) %>%
+  mutate(Route = case_when(Route == "Jet Sweep Pass" ~ "Cross",
+                           Route == "Post Corner" ~ "Cross",
+                           Route == "Beneath" ~ "Flat",
+                           Route == "Sluggo" ~ "Go",
+                           Route == "Go/Fly" ~ "Go",
+                           Route == "Leak" ~ "Go",
+                           Route == "Drag" ~ "Cross",
+                           Route == "Run Fake" ~ "Flat",
+                           Route == "Chip - Drag" ~ "Cross",
+                           Route == "Fade - Back Shoulder" ~ "Go",
+                           Route == "Wheel" ~ "Go",
+                           Route == "Fade" ~ "Go",
+                           Route == "Out & Up" ~ "Go",
+                           str_detect(Route, "Swing") ~ "Flat",
+                           Route == "Hitch & Go" ~ "Go",
+                           Route == "Check & Release" ~ "Flat",
+                           Route == "Chip - Curl" ~ "Curl",
+                           str_detect(Route, "Flat") ~ "Flat",
+                           Route == "Screen - Drag" ~ "Cross",
+                           Route == "Over Ball" ~ "Curl",
+                           Route == "Chip - Seam" ~ "Go",
+                           Route == "Jerk" ~ "In",
+                           Route == "Deep Cross" ~ "Post",
+                           Route == "Corner Post" ~ "Go",
+                           Route == "Seam" ~ "Go",
+                           Route == "Dig" ~ "In",
                            Route == "Whip" ~ "Out",
-                           Route == "Over Ball" ~ "Slant",
-                           Route == "Pick" ~ "Blocking",
-                           Route == "Hitch & Go" ~ "Go/Fly",
-                           Route == "Run Fake" ~ "Blocking",
-                           Route == "Quick" ~ "Out",
-                           Route == "Post Corner" ~ "Corner",
-                           Route == "Stick" ~ "Curl",
-                           Route == "Out & Up" ~ "Go/Fly",
-                           Route == "Corner Post" ~ "Corner",
+                           Route == "Stick - Nod" ~ "Post",
                            Route == "Angle" ~ "Slant",
-                           Route == "Jerk" ~ "In", # Might have to change this one since there are no other in routes
-                           Route == "Check & Release" ~ "Blocking",
-                           Route == "Leak" ~ "Wheel",
                            T ~ Route))
 
-
 pass %>%
-  filter(Route != "NULL") %>%
   group_by(Route) %>%
   summarize(count = n()) %>%
   arrange(desc(count)) -> routes
 
+## Only 10 routes now
