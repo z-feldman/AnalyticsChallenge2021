@@ -3,7 +3,6 @@ source('https://github.com/ajreinhard/data-viz/raw/master/ggplot/plot_SB.R')
 pbp_df <- read.csv('Data/PlayByPlay.csv', stringsAsFactors = F) %>% tibble
 skill_df <- read_csv('Data/SkillPositionPlayers.csv') %>% tibble
 info_df <- read_csv('Data/GameInfo.csv') %>% tibble
-tot_pts_df <- read_csv('Data/PlayerTotalPoints.csv') %>% tibble
 route_mapping <- read_csv('route_mapping.csv')
 
 # take only regular pass plays
@@ -76,25 +75,11 @@ pass_plays_df %>%
 
 
 pass_plays_df %>% 
-  inner_join(play_side_sum_df) %>% 
-  filter(side_players == 2) %>% 
-  group_by(route_combo, CoverageScheme) %>% 
-  summarise(
-    n = n(),
-    epa = mean(as.numeric(EPA), na.rm = T),
-    .groups = 'drop'
-  ) %>% 
-  filter(n >= 50) %>% 
-  group_by(route_combo) %>% 
-  mutate(n = sum(n)) %>% 
-  pivot_wider(names_from = CoverageScheme, values_from = epa) %>% 
+  filter(RPO == 1) %>% 
+  group_by(OffensiveTeam) %>% 
+  summarise(n = n()) %>% 
   arrange(-n) %>% 
   view
-
-
-
-
-
 
 
 
