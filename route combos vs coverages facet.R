@@ -59,7 +59,8 @@ p <- pass_plays_df %>%
   ) %>% 
   group_by(route_combo) %>%
   filter(sum(n) >= 150 & n >= 10) %>% 
-  ungroup %>% 
+  arrange(-sum(n)) %>% 
+  ungroup %>%
   ggplot(aes(x = epa, y = CoverageScheme, color = CoverageScheme)) +
   facet_wrap(. ~ route_combo, nrow = 4, scales = 'free') +
   annotation_custom(make_gradient(deg = 270), ymin=4.2, ymax=Inf, xmin=-Inf, xmax=Inf) +
@@ -69,10 +70,10 @@ p <- pass_plays_df %>%
   geom_segment(aes(xend = 0, yend = CoverageScheme), color = 'grey20', size = 1.5, lineend = 'round', show.legend = F) +
   geom_segment(aes(xend = 0, yend = CoverageScheme), size = 1, lineend = 'round', show.legend = F) +
   geom_point(aes(size = n, fill = CoverageScheme), shape = 21, color = 'grey20') +
-  scale_x_continuous(limits = c(-0.8,0.8), breaks = seq(-0.9,0.9,0.3), labels = plus_lab_format(accuracy = 0.1)) +
+  scale_x_continuous(limits = c(-1.3,1.3), breaks = seq(-1,1,0.5), labels = plus_lab_format(accuracy = 0.1)) +
   scale_size(range = c(1,4)) +
   labs(title = 'Two-Man Single-Side Route Combos vs Common Coverages',
-       subtitle = 'Includes targeted and non-targeted plays  |  Screens excluded  |  Inside route first  |  min. 150 plays',
+       subtitle = 'Includes targeted and non-targeted plays  |  Screens excluded  |  Outside route first  |  min. 150 plays',
        x = 'EPA/Play',
        y = NULL,
        size = 'Plays',
@@ -93,4 +94,30 @@ p <- pass_plays_df %>%
     legend.spacing.x = unit(0.2, 'lines')
   )
 
-brand_plot(p, 'two man epa.png', asp = 16/9, data_home = 'Data: SIS')
+
+orig_plot_bld <- ggplot_gtable(ggplot_build(p))
+grob_strip_index <- which(sapply(orig_plot_bld$grob, function(x) x$name)=='strip')
+facet_id <- sapply(grob_strip_index, function(grb) {
+  orig_plot_bld$grobs[[grb]]$grobs[[1]]$children[[2]]$children[[1]]$label
+})
+
+orig_plot_bld$layout$z[grob_strip_index] <- 0
+
+for (i in 1:length(facet_id)) {
+  
+  afc <- rasterGrob(image = image_read(paste0('route-img/',strsplit(facet_id[i], ' | ')[[1]][1],'.png')) %>% image_resize(geometry = '90x160'), vp = viewport(height = 1, width = .8), x = .8)
+  nfc <- rasterGrob(image = image_read(paste0('route-img/',strsplit(facet_id[i], ' | ')[[1]][3],'.png')) %>% image_resize(geometry = '90x160'), vp = viewport(height = 1, width = .8), x = .9)
+  szn_txt <- textGrob(facet_id[i], x=0.1, gp=gpar(col = 'darkblue', fontfamily=font_SB, fontsize=7), hjust=0)
+  tot_tree <- grobTree(afc, nfc, szn_txt)
+  
+  orig_plot_bld$grobs[[grob_strip_index[i]]] <- tot_tree
+}
+
+ggsave('two man epa.png', ggdraw(orig_plot_bld), dpi = 700, height = 5, width = 5 * (16/9))
+
+
+
+memory.limit(size = 10000)
+memory.size()
+memory.limit()
+

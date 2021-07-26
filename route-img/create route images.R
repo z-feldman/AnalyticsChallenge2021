@@ -11,9 +11,11 @@ ggsave('route-img/full route tree.png', width = 5, height = 5 * (16/9), bg = 'tr
 
 for (i in unique(tree_df$Route)) {
   ggplot(tree_df, aes(x = x, y = y, group = Route)) +
-    geom_path(size = 4, color = 'grey10', arrow = arrow(type = 'closed', angle = 30, length = unit(0.4, 'inches'))) +
-    geom_path(data = tree_df[which(tree_df$Route==i),], size = 4, color = 'red', arrow = arrow(type = 'closed', angle = 30, length = unit(0.4, 'inches'))) +
-    theme_void() 
+    #geom_path(size = 4, color = 'grey10', arrow = arrow(type = 'closed', angle = 30, length = unit(0.4, 'inches'))) +
+    geom_path(data = tree_df[which(tree_df$Route==i),], size = 8, color = 'darkblue', arrow = arrow(type = 'closed', angle = 30, length = unit(0.8, 'inches'))) +
+    theme_void() +
+    scale_x_continuous(limits = c(-6,6)) +
+    scale_y_continuous(limits = c(0,14))
   
   ggsave(paste0('route-img/',i,'.png'), width = 5, height = 5 * (16/9), bg = 'transparent', dpi = 1000)
 }
