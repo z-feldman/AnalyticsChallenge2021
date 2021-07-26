@@ -1,0 +1,1015 @@
+effect,group,level,term,estimate,std.error,num_routes
+ran_vals,route_combo,Comeback,(Intercept),0.09382818170668872,0.16152048528241475,1
+ran_vals,route_combo,Comeback | Comeback,(Intercept),-0.16530243864328734,0.50967247395283,2
+ran_vals,route_combo,Comeback | Comeback | Cross,(Intercept),0.3704807983136717,0.4788429212556048,3
+ran_vals,route_combo,Comeback | Comeback | Curl,(Intercept),0.0164663236209441,0.4115258140269786,3
+ran_vals,route_combo,Comeback | Corner,(Intercept),-0.16338488874404772,0.45268873211075017,2
+ran_vals,route_combo,Comeback | Corner | Curl,(Intercept),0.6740525767134063,0.41143401507406335,3
+ran_vals,route_combo,Comeback | Corner | None,(Intercept),-0.11359364797237884,0.3664468096488841,3
+ran_vals,route_combo,Comeback | Corner | Out,(Intercept),-0.08751209137033783,0.4788175131668172,3
+ran_vals,route_combo,Comeback | Corner | Post,(Intercept),0.8330254283692252,0.4786985687257916,3
+ran_vals,route_combo,Comeback | Cross,(Intercept),0.2700235749248197,0.37953934046176596,2
+ran_vals,route_combo,Comeback | Cross | Flat,(Intercept),0.5276839968133834,0.47869478537626986,3
+ran_vals,route_combo,Comeback | Cross | Slant,(Intercept),1.252376867245738,0.4114223957631045,3
+ran_vals,route_combo,Comeback | Curl,(Intercept),-0.4324599800953104,0.16603629416112076,2
+ran_vals,route_combo,Comeback | Curl | Comeback,(Intercept),-0.4714843960064024,0.4786985687257916,3
+ran_vals,route_combo,Comeback | Curl | Cross,(Intercept),0.21916976411259498,0.33428074258132967,3
+ran_vals,route_combo,Comeback | Curl | Curl,(Intercept),-0.18630484145719242,0.20325706251574135,3
+ran_vals,route_combo,Comeback | Curl | Flat,(Intercept),0.01352332304078304,0.28796250300648535,3
+ran_vals,route_combo,Comeback | Curl | Go,(Intercept),0.0883470140703521,0.2882011603249238,3
+ran_vals,route_combo,Comeback | Curl | None,(Intercept),-0.34922463414035265,0.4114220509116881,3
+ran_vals,route_combo,Comeback | Curl | Out,(Intercept),0.22423980590123246,0.4117623222865048,3
+ran_vals,route_combo,Comeback | Curl | Post,(Intercept),-0.06020632537249857,0.3335334296881442,3
+ran_vals,route_combo,Comeback | Flat,(Intercept),-0.032453733133416734,0.18163691950016703,2
+ran_vals,route_combo,Comeback | Flat | Flat,(Intercept),-0.03617516356154509,0.3335475155913915,3
+ran_vals,route_combo,Comeback | Go,(Intercept),0.29920747323902624,0.20302105413591595,2
+ran_vals,route_combo,Comeback | Go | Curl,(Intercept),0.2476999997834279,0.28828831621045337,3
+ran_vals,route_combo,Comeback | Go | Flat,(Intercept),-0.19312306407345747,0.4116945714851683,3
+ran_vals,route_combo,Comeback | Go | Go,(Intercept),0.22455252111177362,0.41143258408135586,3
+ran_vals,route_combo,Comeback | Go | In,(Intercept),-0.11075520977845689,0.41138664059239566,3
+ran_vals,route_combo,Comeback | Go | Out,(Intercept),0.01906218638498993,0.36659570510766504,3
+ran_vals,route_combo,Comeback | Go | Post,(Intercept),-0.08096630718814714,0.28807685146323403,3
+ran_vals,route_combo,Comeback | In,(Intercept),0.21476716717490615,0.2661988899194224,2
+ran_vals,route_combo,Comeback | In | Curl,(Intercept),-1.427009517802262,0.41135576844053995,3
+ran_vals,route_combo,Comeback | In | Go,(Intercept),-0.3678189126798193,0.4786764796672999,3
+ran_vals,route_combo,Comeback | In | Go | Curl,(Intercept),-0.7072830514028663,0.45283980022403675,4
+ran_vals,route_combo,Comeback | In | In | Go,(Intercept),-0.5608218382783706,0.4529138302820112,4
+ran_vals,route_combo,Comeback | In | None,(Intercept),-0.1316986878779019,0.41149805458465644,3
+ran_vals,route_combo,Comeback | In | Out,(Intercept),1.6264051952447638,0.41137202697367414,3
+ran_vals,route_combo,Comeback | In | Post,(Intercept),-0.8154299939279718,0.36670541393175726,3
+ran_vals,route_combo,Comeback | None,(Intercept),0.23664028455778388,0.2661835058467233,2
+ran_vals,route_combo,Comeback | None | Flat,(Intercept),0.10029980039793608,0.4786792559165588,3
+ran_vals,route_combo,Comeback | None | Go,(Intercept),-0.2798441601965737,0.47868887280815187,3
+ran_vals,route_combo,Comeback | None | None,(Intercept),0.3516963080324242,0.33349716243979344,3
+ran_vals,route_combo,Comeback | Out,(Intercept),0.18171795471788713,0.16605491277225806,2
+ran_vals,route_combo,Comeback | Out | Cross,(Intercept),-0.4572953154662207,0.4117208631236938,3
+ran_vals,route_combo,Comeback | Out | Curl,(Intercept),0.13442377190539107,0.4113638946857494,3
+ran_vals,route_combo,Comeback | Out | Flat,(Intercept),-0.035510822091715064,0.41136629071956,3
+ran_vals,route_combo,Comeback | Out | In,(Intercept),0.15048822632609332,0.4786570502115254,3
+ran_vals,route_combo,Comeback | Out | None,(Intercept),-0.35876646111576305,0.41141798875362007,3
+ran_vals,route_combo,Comeback | Out | Out,(Intercept),0.30787240375205704,0.47874717645693105,3
+ran_vals,route_combo,Comeback | Post,(Intercept),-0.20855780791618822,0.21714290613692266,2
+ran_vals,route_combo,Comeback | Post | Cross,(Intercept),1.0855613664108263,0.4114247707072942,3
+ran_vals,route_combo,Comeback | Post | Curl,(Intercept),-0.5902380287741599,0.4113806680703179,3
+ran_vals,route_combo,Comeback | Post | Flat,(Intercept),0.10661294177542319,0.4787149069902823,3
+ran_vals,route_combo,Comeback | Post | Go,(Intercept),-1.2390050452951538,0.47869476475941425,3
+ran_vals,route_combo,Comeback | Post | In,(Intercept),-0.5267723437493698,0.4786985687257916,3
+ran_vals,route_combo,Comeback | Post | None,(Intercept),-0.070992695304377,0.41136180881420986,3
+ran_vals,route_combo,Comeback | Post | Post,(Intercept),-0.49435686826439657,0.4116065280968247,3
+ran_vals,route_combo,Comeback | Slant,(Intercept),0.5987285502868174,0.21227986948841124,2
+ran_vals,route_combo,Comeback | Slant | Cross,(Intercept),0.48616750673253045,0.4113809986583883,3
+ran_vals,route_combo,Comeback | Slant | Curl,(Intercept),-0.08817254320922485,0.47867503233669,3
+ran_vals,route_combo,Corner,(Intercept),0.2701952588520886,0.1615656188270026,1
+ran_vals,route_combo,Corner | Comeback | Flat,(Intercept),-0.49587588738873634,0.4786921653387153,3
+ran_vals,route_combo,Corner | Corner,(Intercept),-0.3678260605279893,0.22820097527266398,2
+ran_vals,route_combo,Corner | Corner | Flat,(Intercept),0.4596184754364416,0.23510205108274648,3
+ran_vals,route_combo,Corner | Corner | None,(Intercept),0.3708469806937221,0.478720388012835,3
+ran_vals,route_combo,Corner | Corner | Out,(Intercept),-0.900725019286717,0.3347070901117127,3
+ran_vals,route_combo,Corner | Cross,(Intercept),0.3517083370613367,0.25708634809551734,2
+ran_vals,route_combo,Corner | Cross | Curl,(Intercept),-0.5691134122773561,0.4115345174999545,3
+ran_vals,route_combo,Corner | Cross | Flat,(Intercept),-0.1803070172060513,0.28802636557440403,3
+ran_vals,route_combo,Corner | Cross | In,(Intercept),-0.3097295910962288,0.47868311421146365,3
+ran_vals,route_combo,Corner | Cross | Out,(Intercept),0.19012577590805976,0.257876020539903,3
+ran_vals,route_combo,Corner | Cross | Slant,(Intercept),0.7374734153195646,0.4786784697978571,3
+ran_vals,route_combo,Corner | Curl,(Intercept),0.1812110521662028,0.16389490266519985,2
+ran_vals,route_combo,Corner | Curl | Cross,(Intercept),-0.016578136355290013,0.36646050700832805,3
+ran_vals,route_combo,Corner | Curl | Curl,(Intercept),0.3564553279733157,0.3669737939299949,3
+ran_vals,route_combo,Corner | Curl | Flat,(Intercept),0.46618942865139423,0.19178693753132153,3
+ran_vals,route_combo,Corner | Curl | None,(Intercept),0.5072258822286786,0.3663195471931925,3
+ran_vals,route_combo,Corner | Curl | Out,(Intercept),-0.6831058786578266,0.2880904879112969,3
+ran_vals,route_combo,Corner | Curl | Out | Post,(Intercept),-2.2439345058098135,0.4528359588774417,4
+ran_vals,route_combo,Corner | Curl | Post,(Intercept),-0.04744980235222523,0.47867779865393834,3
+ran_vals,route_combo,Corner | Flat,(Intercept),0.06650256519797451,0.09976435732096342,2
+ran_vals,route_combo,Corner | Flat | Corner,(Intercept),-0.194343510572706,0.47872449493596453,3
+ran_vals,route_combo,Corner | Flat | Cross,(Intercept),-0.2525648582718344,0.4787063344787783,3
+ran_vals,route_combo,Corner | Flat | Curl,(Intercept),-0.34133852717582647,0.2713160160976777,3
+ran_vals,route_combo,Corner | Flat | Curl | None,(Intercept),-1.2663542337838931,0.45284826436290515,4
+ran_vals,route_combo,Corner | Flat | Flat,(Intercept),0.5424453011707154,0.333474600573902,3
+ran_vals,route_combo,Corner | Flat | None,(Intercept),0.4581290186831398,0.2345236381527287,3
+ran_vals,route_combo,Corner | Flat | Out,(Intercept),-0.9661882443050832,0.41139145074120326,3
+ran_vals,route_combo,Corner | Go,(Intercept),0.07458108403191009,0.30093141866148715,2
+ran_vals,route_combo,Corner | Go | Cross,(Intercept),0.15555379830239582,0.3673276840059287,3
+ran_vals,route_combo,Corner | Go | Curl,(Intercept),-0.40685849468124935,0.36659006219237117,3
+ran_vals,route_combo,Corner | Go | Flat,(Intercept),0.5754967525825719,0.47890670395207585,3
+ran_vals,route_combo,Corner | In,(Intercept),0.15638731404327683,0.5096684766088092,2
+ran_vals,route_combo,Corner | In | Cross,(Intercept),0.8269048487504588,0.4787735497815527,3
+ran_vals,route_combo,Corner | In | Curl,(Intercept),-0.397836297570262,0.4786785694102669,3
+ran_vals,route_combo,Corner | In | Flat,(Intercept),-0.06432783494842077,0.4786985687257916,3
+ran_vals,route_combo,Corner | In | Post,(Intercept),-0.37315508130040537,0.4786754331334904,3
+ran_vals,route_combo,Corner | None,(Intercept),0.7979325844410364,0.26618700101834125,2
+ran_vals,route_combo,Corner | None | Corner,(Intercept),0.6503543519006771,0.4786618401940276,3
+ran_vals,route_combo,Corner | None | Flat,(Intercept),0.26440788642387897,0.2574296584974681,3
+ran_vals,route_combo,Corner | None | None,(Intercept),-0.2756641870819882,0.271569131985062,3
+ran_vals,route_combo,Corner | None | Out,(Intercept),0.3655217946312908,0.41140749979241314,3
+ran_vals,route_combo,Corner | Out,(Intercept),0.019325174716612638,0.10027678235969455,2
+ran_vals,route_combo,Corner | Out | Cross,(Intercept),-1.4746887721265358,0.36704463269241716,3
+ran_vals,route_combo,Corner | Out | Curl,(Intercept),0.010571982723192491,0.41142539631964925,3
+ran_vals,route_combo,Corner | Out | Flat,(Intercept),-0.360696248888923,0.2033454569128777,3
+ran_vals,route_combo,Corner | Out | None,(Intercept),-0.8347400245922226,0.28797747331434487,3
+ran_vals,route_combo,Corner | Out | Out,(Intercept),-0.9961453639779813,0.2712665830748939,3
+ran_vals,route_combo,Corner | Out | Slant,(Intercept),-0.17534938312973725,0.4787063344787783,3
+ran_vals,route_combo,Corner | Post,(Intercept),0.24350746334171047,0.3158249041047843,2
+ran_vals,route_combo,Corner | Post | Flat,(Intercept),0.7169084460699786,0.3666271556987256,3
+ran_vals,route_combo,Corner | Post | Out,(Intercept),-0.4165796458073911,0.4114222864910745,3
+ran_vals,route_combo,Corner | Post | Post,(Intercept),-0.4252812042571416,0.4786570502115254,3
+ran_vals,route_combo,Corner | Slant,(Intercept),0.30009336616894594,0.2345517004139344,2
+ran_vals,route_combo,Corner | Slant | Flat,(Intercept),0.16575377932256757,0.4787094015025612,3
+ran_vals,route_combo,Corner | Slant | In,(Intercept),-0.5027599326054953,0.4788429212556048,3
+ran_vals,route_combo,Cross,(Intercept),0.007601215940033952,0.09750689514715231,1
+ran_vals,route_combo,Cross | Comeback | Go,(Intercept),-0.5175820047966323,0.4787044632219742,3
+ran_vals,route_combo,Cross | Corner,(Intercept),0.24939076543363697,0.1520796314997751,2
+ran_vals,route_combo,Cross | Corner | Curl,(Intercept),-0.3387448889129127,0.4787332407513435,3
+ran_vals,route_combo,Cross | Corner | Flat,(Intercept),0.012948918045082292,0.3336841542878389,3
+ran_vals,route_combo,Cross | Corner | In,(Intercept),0.6262890660089295,0.30859912307062337,3
+ran_vals,route_combo,Cross | Corner | Out,(Intercept),-0.24836328303134428,0.3334814159798165,3
+ran_vals,route_combo,Cross | Corner | Slant,(Intercept),-0.8863430962680533,0.4127953258216124,3
+ran_vals,route_combo,Cross | Cross,(Intercept),0.24992976313258516,0.37964614478080777,2
+ran_vals,route_combo,Cross | Cross | Corner,(Intercept),1.3766901786465175,0.48097137520257277,3
+ran_vals,route_combo,Cross | Cross | Curl,(Intercept),-0.41798256254683924,0.47872168293129647,3
+ran_vals,route_combo,Cross | Cross | Flat,(Intercept),-0.6181554996140015,0.4787825753670037,3
+ran_vals,route_combo,Cross | Cross | Go,(Intercept),0.7741408726997604,0.4788121942430118,3
+ran_vals,route_combo,Cross | Cross | In | Cross,(Intercept),-0.6085259120326497,0.4529088939577029,4
+ran_vals,route_combo,Cross | Cross | None,(Intercept),0.07387601648181703,0.41165886976588567,3
+ran_vals,route_combo,Cross | Curl,(Intercept),-0.024585582216538577,0.17894635498823716,2
+ran_vals,route_combo,Cross | Curl | Go,(Intercept),-0.3074472559288644,0.3663442234460652,3
+ran_vals,route_combo,Cross | Curl | None,(Intercept),0.6088691088428168,0.4787149069902823,3
+ran_vals,route_combo,Cross | Curl | Post,(Intercept),-0.19376100028118676,0.33376396278016124,3
+ran_vals,route_combo,Cross | Flat,(Intercept),0.13505023639758243,0.17073046739337483,2
+ran_vals,route_combo,Cross | Flat | Corner,(Intercept),-0.32493589311836624,0.4786711448760968,3
+ran_vals,route_combo,Cross | Flat | Curl,(Intercept),0.43432695019331524,0.3665614785934277,3
+ran_vals,route_combo,Cross | Flat | Flat,(Intercept),0.24602634194380982,0.4786771305955914,3
+ran_vals,route_combo,Cross | Flat | Go,(Intercept),0.3105405553385495,0.41140732964801646,3
+ran_vals,route_combo,Cross | Flat | None,(Intercept),-0.14349879901943993,0.4114398850877468,3
+ran_vals,route_combo,Cross | Flat | Post,(Intercept),-0.3013208703662371,0.47867779865393834,3
+ran_vals,route_combo,Cross | Go,(Intercept),0.18043521372502533,0.16829302300209228,2
+ran_vals,route_combo,Cross | Go | Corner,(Intercept),0.8189184108007399,0.4787078110294577,3
+ran_vals,route_combo,Cross | Go | Curl,(Intercept),1.0595400026420732,0.3667123621405336,3
+ran_vals,route_combo,Cross | Go | Flat,(Intercept),-0.16018819890325542,0.4114318833601472,3
+ran_vals,route_combo,Cross | Go | Go,(Intercept),-0.04906334490532791,0.22544636511100646,3
+ran_vals,route_combo,Cross | Go | In,(Intercept),0.7986947896959595,0.24554351518466314,3
+ran_vals,route_combo,Cross | Go | None,(Intercept),-0.3204975959999032,0.3684310859381479,3
+ran_vals,route_combo,Cross | Go | Out,(Intercept),-0.38692040912166137,0.41168409619735263,3
+ran_vals,route_combo,Cross | Go | Post,(Intercept),-0.16803884851610584,0.2458522818646787,3
+ran_vals,route_combo,Cross | Go | Slant,(Intercept),0.001949822113070581,0.3338072056711466,3
+ran_vals,route_combo,Cross | In,(Intercept),-0.0030525020882991956,0.13254482770219392,2
+ran_vals,route_combo,Cross | In | Cross,(Intercept),0.14387450770178128,0.36637343875368844,3
+ran_vals,route_combo,Cross | In | Flat,(Intercept),0.487447137364515,0.30852367956650223,3
+ran_vals,route_combo,Cross | In | Go,(Intercept),0.13965674058297883,0.3663770676024862,3
+ran_vals,route_combo,Cross | In | In,(Intercept),-0.8324093823724594,0.3083046145300797,3
+ran_vals,route_combo,Cross | In | None,(Intercept),0.32109957544917417,0.3335222306700295,3
+ran_vals,route_combo,Cross | In | Out,(Intercept),0.07775000532304777,0.4117305474250258,3
+ran_vals,route_combo,Cross | In | Post,(Intercept),0.11793461403806783,0.16621822338960995,3
+ran_vals,route_combo,Cross | In | Slant,(Intercept),-0.32620529710939516,0.4787872733796562,3
+ran_vals,route_combo,Cross | None,(Intercept),-0.09843298342623312,0.11820299343973004,2
+ran_vals,route_combo,Cross | None | Cross,(Intercept),-0.7032713679868493,0.47885269781511997,3
+ran_vals,route_combo,Cross | None | None,(Intercept),0.05994077787576105,0.1684448340933479,3
+ran_vals,route_combo,Cross | None | Post,(Intercept),-0.3968846952893752,0.4787004343303985,3
+ran_vals,route_combo,Cross | Out,(Intercept),0.03714624978988569,0.1576333009405968,2
+ran_vals,route_combo,Cross | Out | Comeback,(Intercept),0.4470209813054478,0.47871056912618437,3
+ran_vals,route_combo,Cross | Out | Corner,(Intercept),-0.29648463678191983,0.2716933505243386,3
+ran_vals,route_combo,Cross | Out | Cross,(Intercept),-0.22189212335044475,0.4786792559165588,3
+ran_vals,route_combo,Cross | Out | Curl,(Intercept),-0.0571203240531669,0.4787533128336783,3
+ran_vals,route_combo,Cross | Out | Flat,(Intercept),-0.18640327010380342,0.4127986873190467,3
+ran_vals,route_combo,Cross | Out | Go,(Intercept),-0.28429824655122643,0.28801804660025954,3
+ran_vals,route_combo,Cross | Out | In,(Intercept),0.3232225189423484,0.30833910004196924,3
+ran_vals,route_combo,Cross | Out | Out,(Intercept),0.36955616682733,0.4114355895680974,3
+ran_vals,route_combo,Cross | Out | Post,(Intercept),0.046760376538120076,0.2575166293067171,3
+ran_vals,route_combo,Cross | Out | Slant,(Intercept),-0.8349146751290212,0.3664508880702821,3
+ran_vals,route_combo,Cross | Post,(Intercept),0.15536279935357228,0.16867799004130077,2
+ran_vals,route_combo,Cross | Post | Corner,(Intercept),0.1037365629948755,0.4787078110294577,3
+ran_vals,route_combo,Cross | Post | Curl,(Intercept),1.1030336517289465,0.47881294639642363,3
+ran_vals,route_combo,Cross | Post | Flat,(Intercept),-0.04496473907958236,0.28821320550548063,3
+ran_vals,route_combo,Cross | Post | Go,(Intercept),0.7040548679129062,0.478691286401516,3
+ran_vals,route_combo,Cross | Post | In,(Intercept),0.002879511010324495,0.3669554797746412,3
+ran_vals,route_combo,Cross | Post | None,(Intercept),-0.1513777679353242,0.2452525691615916,3
+ran_vals,route_combo,Cross | Post | Out,(Intercept),0.22259408913230022,0.4113732170798069,3
+ran_vals,route_combo,Cross | Post | Post,(Intercept),0.3147387641349898,0.33354850941889463,3
+ran_vals,route_combo,Cross | Post | Underneath Screen,(Intercept),-0.042232355828166174,0.4130934675460859,3
+ran_vals,route_combo,Cross | Slant,(Intercept),-0.161197843158802,0.25705587451081996,2
+ran_vals,route_combo,Cross | Slant | Flat,(Intercept),-0.13272846129299334,0.4789104273960549,3
+ran_vals,route_combo,Cross | Slant | Go,(Intercept),0.5778953802854999,0.4114459667166784,3
+ran_vals,route_combo,Cross | Slant | Post,(Intercept),0.6691838689388131,0.47871344516409875,3
+ran_vals,route_combo,Cross | Slant | Slant,(Intercept),-0.03133679958644336,0.4786792559165588,3
+ran_vals,route_combo,Cross | Underneath Screen,(Intercept),0.08404584474582234,0.5099589498563534,2
+ran_vals,route_combo,Curl,(Intercept),0.05749054816154845,0.07305137694989103,1
+ran_vals,route_combo,Curl | Comeback,(Intercept),0.34292177697088394,0.3797555523586165,2
+ran_vals,route_combo,Curl | Comeback | Comeback,(Intercept),-0.4347166533985441,0.47909744299627227,3
+ran_vals,route_combo,Curl | Comeback | None,(Intercept),0.24636759804336436,0.3336279383906287,3
+ran_vals,route_combo,Curl | Comeback | Out,(Intercept),-0.2698677609890303,0.4786633455157267,3
+ran_vals,route_combo,Curl | Corner,(Intercept),0.02090637446159161,0.09938128585083301,2
+ran_vals,route_combo,Curl | Corner | Cross,(Intercept),-0.3715039004126031,0.33382086514703513,3
+ran_vals,route_combo,Curl | Corner | Curl,(Intercept),0.28136603448491593,0.21737719342701067,3
+ran_vals,route_combo,Curl | Corner | Flat,(Intercept),-0.3447149971705441,0.17342046522477855,3
+ran_vals,route_combo,Curl | Corner | Go,(Intercept),0.6108090804947505,0.28879847954433924,3
+ran_vals,route_combo,Curl | Corner | None,(Intercept),0.18605900434036768,0.1735019256574133,3
+ran_vals,route_combo,Curl | Corner | Out,(Intercept),-0.40809326374614874,0.271268377782625,3
+ran_vals,route_combo,Curl | Corner | Post,(Intercept),0.1085170564616505,0.2883478035617228,3
+ran_vals,route_combo,Curl | Corner | Slant,(Intercept),-0.4091195259449334,0.47890670395207585,3
+ran_vals,route_combo,Curl | Corner | Slant | In,(Intercept),0.47754008968027406,0.4530696812902079,4
+ran_vals,route_combo,Curl | Cross,(Intercept),0.12717737579357183,0.1263008966660187,2
+ran_vals,route_combo,Curl | Cross | Corner,(Intercept),-0.38184804818911033,0.41172269446289633,3
+ran_vals,route_combo,Curl | Cross | Cross,(Intercept),0.3864265124242133,0.47867779865393834,3
+ran_vals,route_combo,Curl | Cross | Curl,(Intercept),-0.4161845052765169,0.3337989717822774,3
+ran_vals,route_combo,Curl | Cross | Flat,(Intercept),0.17051382315375227,0.28866086110912337,3
+ran_vals,route_combo,Curl | Cross | Go,(Intercept),-0.023624692952208644,0.33397663102965247,3
+ran_vals,route_combo,Curl | Cross | Go | In,(Intercept),-0.8086087898795488,0.4534144409719751,4
+ran_vals,route_combo,Curl | Cross | In,(Intercept),0.0060940583199285405,0.25773292731393116,3
+ran_vals,route_combo,Curl | Cross | Post,(Intercept),0.08680456611167682,0.33351698373728766,3
+ran_vals,route_combo,Curl | Cross | Post | In,(Intercept),-0.3471988566541679,0.4528286701549704,4
+ran_vals,route_combo,Curl | Curl,(Intercept),-0.04025895849705254,0.06519114047733472,2
+ran_vals,route_combo,Curl | Curl | Corner,(Intercept),-0.11604397058806855,0.16980648104245447,3
+ran_vals,route_combo,Curl | Curl | Cross,(Intercept),0.31154659883360325,0.41142845790986404,3
+ran_vals,route_combo,Curl | Curl | Cross | Curl,(Intercept),0.8947459208835821,0.45288647013374633,4
+ran_vals,route_combo,Curl | Curl | Curl,(Intercept),-0.00926956523847087,0.10038480636181753,3
+ran_vals,route_combo,Curl | Curl | Flat,(Intercept),0.07418173232850979,0.0794513938266029,3
+ran_vals,route_combo,Curl | Curl | Go,(Intercept),-0.08294448158000522,0.15150387141060628,3
+ran_vals,route_combo,Curl | Curl | Go | Curl,(Intercept),-0.4258156056501697,0.45283063325502265,4
+ran_vals,route_combo,Curl | Curl | In,(Intercept),-1.020790623787663,0.24506955401528036,3
+ran_vals,route_combo,Curl | Curl | None,(Intercept),-0.022532893770806865,0.16304687379505875,3
+ran_vals,route_combo,Curl | Curl | Out,(Intercept),0.48430378374267197,0.2712184667822113,3
+ran_vals,route_combo,Curl | Curl | Post,(Intercept),0.09458548550527089,0.17763129229972086,3
+ran_vals,route_combo,Curl | Curl | Slant,(Intercept),0.5474007678329301,0.33351251231867635,3
+ran_vals,route_combo,Curl | Flat,(Intercept),-0.0477985540559533,0.06577836476338594,2
+ran_vals,route_combo,Curl | Flat | Corner,(Intercept),0.019234860650089548,0.41134661569480285,3
+ran_vals,route_combo,Curl | Flat | Cross,(Intercept),-0.2705169087593252,0.4787795776491893,3
+ran_vals,route_combo,Curl | Flat | Curl,(Intercept),-0.1314771907103219,0.17747782525913838,3
+ran_vals,route_combo,Curl | Flat | Curl | Corner,(Intercept),-0.4184420387561641,0.4528347707979417,4
+ran_vals,route_combo,Curl | Flat | Flat,(Intercept),-0.19014195287706767,0.4116178488377229,3
+ran_vals,route_combo,Curl | Flat | Go,(Intercept),0.080987939806537207,0.36673149212937567,3
+ran_vals,route_combo,Curl | Flat | In,(Intercept),-0.8406386078573087,0.33352802624944394,3
+ran_vals,route_combo,Curl | Flat | None,(Intercept),0.05680705520472472,0.30825121320385634,3
+ran_vals,route_combo,Curl | Flat | Post,(Intercept),-0.15440555987321922,0.30822844950775585,3
+ran_vals,route_combo,Curl | Flat | Slant,(Intercept),0.10686936761334971,0.4117475326701895,3
+ran_vals,route_combo,Curl | Go,(Intercept),-0.029572427259466544,0.07553132942694751,2
+ran_vals,route_combo,Curl | Go | Corner,(Intercept),-0.20792880062808108,0.3335204592869312,3
+ran_vals,route_combo,Curl | Go | Cross,(Intercept),0.9809922383597532,0.36653157864292163,3
+ran_vals,route_combo,Curl | Go | Curl,(Intercept),-0.009828190454280877,0.0871884474059736,3
+ran_vals,route_combo,Curl | Go | Curl | Go,(Intercept),-0.1510838162489651,0.4532709958312334,4
+ran_vals,route_combo,Curl | Go | Flat,(Intercept),-0.37128155676697067,0.20320739714164618,3
+ran_vals,route_combo,Curl | Go | Go,(Intercept),-1.0821414645584602,0.2455045126971263,3
+ran_vals,route_combo,Curl | Go | Go | Go,(Intercept),-0.5553334429519946,0.45283063325502265,4
+ran_vals,route_combo,Curl | Go | In,(Intercept),-0.12498184758428794,0.21711414229938633,3
+ran_vals,route_combo,Curl | Go | None,(Intercept),-0.2959484172786872,0.27143271854151135,3
+ran_vals,route_combo,Curl | Go | Out,(Intercept),-0.10963879375938382,0.09835049010540321,3
+ran_vals,route_combo,Curl | Go | Post,(Intercept),0.5069283398932406,0.1295825281502113,3
+ran_vals,route_combo,Curl | Go | Slant,(Intercept),-0.35423960653368286,0.3335453662231809,3
+ran_vals,route_combo,Curl | In,(Intercept),0.056330735329891614,0.11748670294068675,2
+ran_vals,route_combo,Curl | In | Corner,(Intercept),-0.27151173354859504,0.4115869414799709,3
+ran_vals,route_combo,Curl | In | Cross,(Intercept),0.267964548497739,0.287989802937696,3
+ran_vals,route_combo,Curl | In | Curl,(Intercept),0.992095651048747,0.2451619167623079,3
+ran_vals,route_combo,Curl | In | Flat,(Intercept),0.07994904566156447,0.17755837298097205,3
+ran_vals,route_combo,Curl | In | Go,(Intercept),-0.5377953301936786,0.287977697858768,3
+ran_vals,route_combo,Curl | In | Go | In,(Intercept),-0.33980697584264896,0.4528798060751573,4
+ran_vals,route_combo,Curl | In | In,(Intercept),-0.20378049257347405,0.30823515772317217,3
+ran_vals,route_combo,Curl | In | None,(Intercept),-0.2958177614030397,0.3664107131775431,3
+ran_vals,route_combo,Curl | In | Out,(Intercept),-0.4148634968854761,0.24516497949739527,3
+ran_vals,route_combo,Curl | In | Post,(Intercept),-0.6571979580735648,0.17340409295408152,3
+ran_vals,route_combo,Curl | None,(Intercept),0.19295273794190884,0.13872386989928867,2
+ran_vals,route_combo,Curl | None | Corner,(Intercept),0.6093221394135734,0.41140494545017825,3
+ran_vals,route_combo,Curl | None | Cross,(Intercept),0.23295630367953368,0.47873106659514664,3
+ran_vals,route_combo,Curl | None | Flat,(Intercept),-0.5331647634638943,0.478691286401516,3
+ran_vals,route_combo,Curl | None | Go,(Intercept),1.0448030470830831,0.4787421372526462,3
+ran_vals,route_combo,Curl | None | None,(Intercept),-0.5915868950424873,0.25746666835881443,3
+ran_vals,route_combo,Curl | None | Out,(Intercept),0.10271890873701178,0.41136073246859506,3
+ran_vals,route_combo,Curl | None | WR Screen,(Intercept),-0.05217472639879108,0.4791760104500925,3
+ran_vals,route_combo,Curl | Out,(Intercept),-0.07653628814915328,0.11112740106504196,2
+ran_vals,route_combo,Curl | Out | Corner,(Intercept),-0.6225770736763218,0.4113607949674489,3
+ran_vals,route_combo,Curl | Out | Curl,(Intercept),-0.33838924655811164,0.24512761787582346,3
+ran_vals,route_combo,Curl | Out | Flat,(Intercept),-0.4401938637702804,0.2573971278170064,3
+ran_vals,route_combo,Curl | Out | Go,(Intercept),0.14564399359335137,0.3083932459391658,3
+ran_vals,route_combo,Curl | Out | In,(Intercept),0.26188147866546985,0.2879616155767891,3
+ran_vals,route_combo,Curl | Out | None,(Intercept),0.1714526465626516,0.27133740259803557,3
+ran_vals,route_combo,Curl | Out | Post,(Intercept),-0.03909137679310577,0.4798401587642584,3
+ran_vals,route_combo,Curl | Out | Slant,(Intercept),1.0113718488169945,0.4787078905898088,3
+ran_vals,route_combo,Curl | Post,(Intercept),-0.06039052880381633,0.11244300935125888,2
+ran_vals,route_combo,Curl | Post | Cross,(Intercept),0.6794634283492331,0.3667331054227045,3
+ran_vals,route_combo,Curl | Post | Curl,(Intercept),-0.1872111445491963,0.15447268002724235,3
+ran_vals,route_combo,Curl | Post | Flat,(Intercept),0.03663633851236298,0.1628108713651509,3
+ran_vals,route_combo,Curl | Post | Go,(Intercept),0.7181929173502971,0.36630394809020084,3
+ran_vals,route_combo,Curl | Post | In,(Intercept),0.19037427954970365,0.21726876485723262,3
+ran_vals,route_combo,Curl | Post | None,(Intercept),0.9246752343737702,0.3081600025649614,3
+ran_vals,route_combo,Curl | Post | Out,(Intercept),-0.22279551260669597,0.20976922868648848,3
+ran_vals,route_combo,Curl | Post | Out | Flat,(Intercept),-1.691320734577461,0.45280893439818004,4
+ran_vals,route_combo,Curl | Post | Post,(Intercept),-0.935579591442738,0.2712623107521047,3
+ran_vals,route_combo,Curl | Post | Slant,(Intercept),-1.4930745770958305,0.3082437759061998,3
+ran_vals,route_combo,Curl | Slant,(Intercept),0.08408630010668801,0.17871406603807316,2
+ran_vals,route_combo,Curl | Slant | Cross,(Intercept),0.3358576737928698,0.3665821462987249,3
+ran_vals,route_combo,Curl | Slant | Curl,(Intercept),-0.6156092050567663,0.33357149209498294,3
+ran_vals,route_combo,Curl | Slant | Flat,(Intercept),-0.002115045857493951,0.33360849605184756,3
+ran_vals,route_combo,Curl | Slant | Go,(Intercept),-0.5197252281952411,0.3085470497940136,3
+ran_vals,route_combo,Curl | Slant | In,(Intercept),-1.4455953894038733,0.47873887723317526,3
+ran_vals,route_combo,Curl | Slant | None,(Intercept),0.7030480313700684,0.47879415427945776,3
+ran_vals,route_combo,Curl | Slant | Out,(Intercept),0.4001719620007015,0.28788775199060274,3
+ran_vals,route_combo,Curl | Slant | Post,(Intercept),0.2942645134588103,0.3676000289530418,3
+ran_vals,route_combo,Curl | Slant | Slant,(Intercept),0.4960021993326004,0.3335950995641547,3
+ran_vals,route_combo,Curl | WR Screen | Flat,(Intercept),-0.6459935138066373,0.47899345867086873,3
+ran_vals,route_combo,Curl | WR Screen | None,(Intercept),-0.6273836892700023,0.47915978155617966,3
+ran_vals,route_combo,Flat,(Intercept),-0.1107497974986838,0.30807457343926675,1
+ran_vals,route_combo,Flat | Comeback,(Intercept),0.10001967577229574,0.5098285307596914,2
+ran_vals,route_combo,Flat | Corner,(Intercept),-0.0409837811134367,0.17607362713999353,2
+ran_vals,route_combo,Flat | Corner | Curl,(Intercept),-0.11054096578206682,0.3335339748384631,3
+ran_vals,route_combo,Flat | Corner | Flat,(Intercept),0.27125934967667015,0.3663394894461354,3
+ran_vals,route_combo,Flat | Corner | Go,(Intercept),0.7727637798514891,0.4787735497815527,3
+ran_vals,route_combo,Flat | Corner | None,(Intercept),0.04430542494808567,0.2879961473754095,3
+ran_vals,route_combo,Flat | Corner | Out,(Intercept),0.1258900108060533,0.41164968285606424,3
+ran_vals,route_combo,Flat | Corner | Post,(Intercept),-0.26199746423429676,0.478739061036291,3
+ran_vals,route_combo,Flat | Cross,(Intercept),-0.1360269261974484,0.18803725899855106,2
+ran_vals,route_combo,Flat | Cross | Flat,(Intercept),0.22787022163044943,0.4789432282728897,3
+ran_vals,route_combo,Flat | Cross | None,(Intercept),-0.0031016638458360754,0.4787074353404536,3
+ran_vals,route_combo,Flat | Cross | Post,(Intercept),-0.8277330800474195,0.47868536090985203,3
+ran_vals,route_combo,Flat | Curl,(Intercept),-0.10785882058360094,0.18809711536366505,2
+ran_vals,route_combo,Flat | Curl | Corner,(Intercept),-0.28383408678335664,0.4786618401940276,3
+ran_vals,route_combo,Flat | Curl | Curl,(Intercept),0.4089675929417162,0.28793593116021055,3
+ran_vals,route_combo,Flat | Curl | Flat,(Intercept),0.2854243187309044,0.20990345583202255,3
+ran_vals,route_combo,Flat | Curl | Go,(Intercept),-1.0623250402074358,0.36640880368080825,3
+ran_vals,route_combo,Flat | Curl | In,(Intercept),0.22165528098789772,0.47867458650099404,3
+ran_vals,route_combo,Flat | Curl | None,(Intercept),0.5917423058882046,0.333670841724273,3
+ran_vals,route_combo,Flat | Curl | Out,(Intercept),0.4943625119440318,0.3666362182875802,3
+ran_vals,route_combo,Flat | Curl | Post,(Intercept),-0.38139744851056795,0.4114505346747372,3
+ran_vals,route_combo,Flat | Curl | Slant,(Intercept),0.4869481061946277,0.4786618401940276,3
+ran_vals,route_combo,Flat | Flat,(Intercept),0.40628122015452334,0.3160566352124006,2
+ran_vals,route_combo,Flat | Flat | Corner,(Intercept),-0.01419381921066899,0.41164968285606424,3
+ran_vals,route_combo,Flat | Flat | Flat,(Intercept),0.22838194830621217,0.4787275644276736,3
+ran_vals,route_combo,Flat | Go,(Intercept),0.5048251811942447,0.2487446759652422,2
+ran_vals,route_combo,Flat | Go | Curl,(Intercept),0.7410319693833416,0.41140597193794254,3
+ran_vals,route_combo,Flat | Go | Flat,(Intercept),-0.2159627992329821,0.47897694619387254,3
+ran_vals,route_combo,Flat | Go | Go,(Intercept),-0.5661610484851288,0.41141472395162476,3
+ran_vals,route_combo,Flat | Go | None,(Intercept),0.0459346578871399,0.36641733887840133,3
+ran_vals,route_combo,Flat | Go | Out,(Intercept),0.6054102446326969,0.4786923941187797,3
+ran_vals,route_combo,Flat | Go | Post,(Intercept),-0.045594669443498534,0.47874656727542686,3
+ran_vals,route_combo,Flat | Go | Slant,(Intercept),0.06584500651333734,0.4786785694102669,3
+ran_vals,route_combo,Flat | Go | Underneath Screen,(Intercept),-1.4848142905018047,0.4127131247309691,3
+ran_vals,route_combo,Flat | In,(Intercept),-0.02176640104475107,0.1848846850953804,2
+ran_vals,route_combo,Flat | In | Corner,(Intercept),-0.2870883024838665,0.4787355534151097,3
+ran_vals,route_combo,Flat | In | Flat,(Intercept),0.5432471397394253,0.47909998048583885,3
+ran_vals,route_combo,Flat | In | Go,(Intercept),0.2570210343127555,0.4787280831838495,3
+ran_vals,route_combo,Flat | In | None,(Intercept),-0.3230824004062586,0.25723845454085875,3
+ran_vals,route_combo,Flat | In | Post,(Intercept),0.09003081487320069,0.4114388539215381,3
+ran_vals,route_combo,Flat | None,(Intercept),0.3145696778590098,0.20729347168805579,2
+ran_vals,route_combo,Flat | None | Corner,(Intercept),-0.23880597998857875,0.4787115182214855,3
+ran_vals,route_combo,Flat | None | Cross,(Intercept),-0.6115649469149129,0.4787063344787783,3
+ran_vals,route_combo,Flat | None | Flat,(Intercept),-0.039098365025998706,0.41152576778964145,3
+ran_vals,route_combo,Flat | None | None,(Intercept),0.23904206458781727,0.3105956737131734,3
+ran_vals,route_combo,Flat | None | Out,(Intercept),-0.3138536182707412,0.4789310255145852,3
+ran_vals,route_combo,Flat | None | Underneath Screen,(Intercept),-0.12428348290350258,0.4127060407288992,3
+ran_vals,route_combo,Flat | Out,(Intercept),0.04944529336226593,0.16177758542511808,2
+ran_vals,route_combo,Flat | Out | Corner,(Intercept),0.18967673231740248,0.4114209731511509,3
+ran_vals,route_combo,Flat | Out | Curl,(Intercept),0.255009947442831,0.33370635282298433,3
+ran_vals,route_combo,Flat | Out | Flat,(Intercept),-0.05493108592821813,0.2713685012319154,3
+ran_vals,route_combo,Flat | Out | None,(Intercept),-0.44568127325064566,0.33354133430996846,3
+ran_vals,route_combo,Flat | Out | Out,(Intercept),0.7766303823248003,0.4115034306610384,3
+ran_vals,route_combo,Flat | Out | Post,(Intercept),-0.4806938287728079,0.4786986471022868,3
+ran_vals,route_combo,Flat | Post,(Intercept),-0.33446302977471476,0.10531592320938267,2
+ran_vals,route_combo,Flat | Post | Corner,(Intercept),0.23411143019909947,0.41153880059390474,3
+ran_vals,route_combo,Flat | Post | Cross,(Intercept),0.72324083119486,0.36641636759489854,3
+ran_vals,route_combo,Flat | Post | Curl,(Intercept),0.8403364688496057,0.41137986970506113,3
+ran_vals,route_combo,Flat | Post | Flat,(Intercept),0.11290851616335326,0.24511417960181622,3
+ran_vals,route_combo,Flat | Post | Go,(Intercept),0.24846075963764014,0.4787322775037024,3
+ran_vals,route_combo,Flat | Post | None,(Intercept),-0.2337801375944405,0.19160175032218552,3
+ran_vals,route_combo,Flat | Post | Post,(Intercept),0.41798162496439906,0.3663460055558574,3
+ran_vals,route_combo,Flat | Post | Underneath Screen,(Intercept),0.18200576587715273,0.41268228220804815,3
+ran_vals,route_combo,Flat | Slant,(Intercept),0.40450557473187543,0.2571758603293996,2
+ran_vals,route_combo,Flat | Slant | Flat,(Intercept),0.27607701050097516,0.41166052460238045,3
+ran_vals,route_combo,Flat | Slant | None,(Intercept),-0.4128887124862269,0.4787094015025612,3
+ran_vals,route_combo,Flat | Underneath Screen,(Intercept),-0.20388250580313472,0.5099284470070424,2
+ran_vals,route_combo,Flat | WR Screen,(Intercept),-0.25417436951057054,0.41258252676648133,2
+ran_vals,route_combo,Flat | WR Screen | Go | Slant,(Intercept),0.35378165884868745,0.4531439315200156,4
+ran_vals,route_combo,Flat | WR Screen | None,(Intercept),-0.14842961251149428,0.47922770402379394,3
+ran_vals,route_combo,Flat | WR Screen | None | None,(Intercept),-0.6196819851841929,0.45355081817065934,4
+ran_vals,route_combo,Go,(Intercept),-0.04457082465540559,0.07210719165785408,1
+ran_vals,route_combo,Go | Comeback,(Intercept),-0.1787982826641511,0.5098285307596914,2
+ran_vals,route_combo,Go | Comeback | Curl,(Intercept),0.11999390122404568,0.4113901080653429,3
+ran_vals,route_combo,Go | Corner,(Intercept),0.32020546101084746,0.17591462260231588,2
+ran_vals,route_combo,Go | Corner | Cross,(Intercept),-0.43617486312675746,0.3664042014300448,3
+ran_vals,route_combo,Go | Corner | Flat,(Intercept),-0.16767483601889915,0.19713122519591625,3
+ran_vals,route_combo,Go | Corner | Go,(Intercept),-0.3357989610884645,0.47868311421146365,3
+ran_vals,route_combo,Go | Corner | None,(Intercept),-0.00843100039810707,0.4113777366660565,3
+ran_vals,route_combo,Go | Corner | Out,(Intercept),0.044635439533525216,0.36637316343888,3
+ran_vals,route_combo,Go | Corner | Post,(Intercept),-0.4306437469776349,0.4789266321264554,3
+ran_vals,route_combo,Go | Corner | Post | None,(Intercept),1.7358387956945913,0.4528026975977437,4
+ran_vals,route_combo,Go | Cross,(Intercept),-0.178515845004036,0.12344418972774758,2
+ran_vals,route_combo,Go | Cross | Corner,(Intercept),0.597984318781951,0.478701709101531,3
+ran_vals,route_combo,Go | Cross | Cross,(Intercept),-0.29909155325829173,0.4786923941187797,3
+ran_vals,route_combo,Go | Cross | Curl,(Intercept),0.41362948999102145,0.30843184833710924,3
+ran_vals,route_combo,Go | Cross | Curl | Flat,(Intercept),0.7428484234215131,0.4527919268409422,4
+ran_vals,route_combo,Go | Cross | Flat,(Intercept),-0.7753750738093105,0.4113630525948789,3
+ran_vals,route_combo,Go | Cross | Go,(Intercept),0.5971571739049177,0.2716545766218921,3
+ran_vals,route_combo,Go | Cross | Go | In,(Intercept),0.9672998273640222,0.4527919268409422,4
+ran_vals,route_combo,Go | Cross | In,(Intercept),-0.21462463526663894,0.17360535638349917,3
+ran_vals,route_combo,Go | Cross | None,(Intercept),0.1272276810866697,0.2572722939270651,3
+ran_vals,route_combo,Go | Cross | Out,(Intercept),0.4625202687213956,0.28799136579321344,3
+ran_vals,route_combo,Go | Cross | Post,(Intercept),0.013170045126020644,0.2451225046299677,3
+ran_vals,route_combo,Go | Cross | Slant,(Intercept),-0.2518459942511645,0.3665681183999148,3
+ran_vals,route_combo,Go | Cross | Underneath Screen,(Intercept),0.640201178344695,0.47916877888220716,3
+ran_vals,route_combo,Go | Cross | WR Screen,(Intercept),-0.3247028841490105,0.4797624714109708,3
+ran_vals,route_combo,Go | Curl,(Intercept),0.056305391403383406,0.06935803389734113,2
+ran_vals,route_combo,Go | Curl | Corner,(Intercept),0.5858796725672528,0.30859347471494725,3
+ran_vals,route_combo,Go | Curl | Cross,(Intercept),0.6173751801440969,0.24517402408544878,3
+ran_vals,route_combo,Go | Curl | Curl,(Intercept),0.43490695454583095,0.11839688893313642,3
+ran_vals,route_combo,Go | Curl | Flat,(Intercept),0.12177389600818647,0.15961716636923506,3
+ran_vals,route_combo,Go | Curl | Go,(Intercept),0.2689595213790004,0.2172565207315538,3
+ran_vals,route_combo,Go | Curl | In,(Intercept),1.0159786331913094,0.2879878167614844,3
+ran_vals,route_combo,Go | Curl | In | Curl,(Intercept),-0.6129126563180074,0.4531385608515721,4
+ran_vals,route_combo,Go | Curl | In | Flat,(Intercept),-0.43920111330006617,0.45281651025132513,4
+ran_vals,route_combo,Go | Curl | None,(Intercept),0.2433219917925575,0.30824870225994605,3
+ran_vals,route_combo,Go | Curl | Out,(Intercept),0.016193390890895155,0.1864652919982674,3
+ran_vals,route_combo,Go | Curl | Post,(Intercept),0.2944420468706028,0.2099663534292541,3
+ran_vals,route_combo,Go | Curl | Slant,(Intercept),0.13572313954476325,0.366485412038557,3
+ran_vals,route_combo,Go | Flat,(Intercept),-0.1683173212340771,0.1040152163234262,2
+ran_vals,route_combo,Go | Flat | Corner,(Intercept),0.5674796060977609,0.41139841129671756,3
+ran_vals,route_combo,Go | Flat | Cross,(Intercept),-0.15467795373724766,0.4114464937575542,3
+ran_vals,route_combo,Go | Flat | Curl,(Intercept),0.23279653853520033,0.19173722570969598,3
+ran_vals,route_combo,Go | Flat | Curl | Cross,(Intercept),0.43143277105592354,0.4528004521938457,4
+ran_vals,route_combo,Go | Flat | Go,(Intercept),0.4382638170798607,0.2712962259792045,3
+ran_vals,route_combo,Go | Flat | In,(Intercept),-0.37318736492474985,0.3663614611964887,3
+ran_vals,route_combo,Go | Flat | None,(Intercept),-0.1804535237067044,0.2172161070229725,3
+ran_vals,route_combo,Go | Flat | Out,(Intercept),-0.09025538571344544,0.177425926945308,3
+ran_vals,route_combo,Go | Flat | Post,(Intercept),-0.1803131007562394,0.4115443589015438,3
+ran_vals,route_combo,Go | Flat | Slant,(Intercept),-0.3625707238796231,0.47868251413925794,3
+ran_vals,route_combo,Go | Flat | Underneath Screen,(Intercept),-0.34632032446353456,0.4791991036205434,3
+ran_vals,route_combo,Go | Go,(Intercept),0.19195850088727942,0.0771945208057457,2
+ran_vals,route_combo,Go | Go | Corner,(Intercept),-0.46228650612445454,0.4788520064019218,3
+ran_vals,route_combo,Go | Go | Corner | Flat,(Intercept),-0.48123940449850916,0.4530045947929219,4
+ran_vals,route_combo,Go | Go | Cross,(Intercept),0.49839387427338727,0.4788520064019218,3
+ran_vals,route_combo,Go | Go | Cross | Flat,(Intercept),0.11462132790256993,0.452820849612945,4
+ran_vals,route_combo,Go | Go | Curl,(Intercept),0.4212084205040603,0.17347675713248129,3
+ran_vals,route_combo,Go | Go | Flat,(Intercept),-7.622129539334443e-5,0.15131111391519245,3
+ran_vals,route_combo,Go | Go | Go,(Intercept),-0.014710133823303419,0.1255422019596516,3
+ran_vals,route_combo,Go | Go | In,(Intercept),-0.27680218607867557,0.22537970978151847,3
+ran_vals,route_combo,Go | Go | In | Out,(Intercept),0.7413783739597805,0.4531546422285631,4
+ran_vals,route_combo,Go | Go | None,(Intercept),0.5884049626708248,0.24535772349561297,3
+ran_vals,route_combo,Go | Go | Out,(Intercept),0.37405546031954495,0.13803365591911257,3
+ran_vals,route_combo,Go | Go | Post,(Intercept),0.33632712240174706,0.11286710725473882,3
+ran_vals,route_combo,Go | Go | Post | Out,(Intercept),-0.1853107435121011,0.45281133241850313,4
+ran_vals,route_combo,Go | Go | Slant,(Intercept),0.32636282356101504,0.30828389552858376,3
+ran_vals,route_combo,Go | Go | Underneath Screen,(Intercept),0.203452548433829,0.3684446853286782,3
+ran_vals,route_combo,Go | In,(Intercept),0.08569296898169303,0.12424859324133411,2
+ran_vals,route_combo,Go | In | Cross,(Intercept),0.1974380982840624,0.2572069761850507,3
+ran_vals,route_combo,Go | In | Curl,(Intercept),-0.06245240868510217,0.23502728998011316,3
+ran_vals,route_combo,Go | In | Flat,(Intercept),-0.4033152486335142,0.2171531734218112,3
+ran_vals,route_combo,Go | In | Go,(Intercept),0.20023535009388577,0.19710760691481305,3
+ran_vals,route_combo,Go | In | In,(Intercept),0.1372603405116577,0.2880180562557221,3
+ran_vals,route_combo,Go | In | None,(Intercept),-0.7779885668720253,0.28804323230978035,3
+ran_vals,route_combo,Go | In | Out,(Intercept),0.9592577608455192,0.2173640484791448,3
+ran_vals,route_combo,Go | In | Post,(Intercept),-0.1544633599656857,0.18176439785090406,3
+ran_vals,route_combo,Go | In | Slant,(Intercept),-0.6373113270460029,0.4114858262039608,3
+ran_vals,route_combo,Go | None,(Intercept),0.33781830568775434,0.11611850116095947,2
+ran_vals,route_combo,Go | None | Corner,(Intercept),-0.4340734824645697,0.47873887723317526,3
+ran_vals,route_combo,Go | None | Curl,(Intercept),0.32242655066136766,0.47869960684740476,3
+ran_vals,route_combo,Go | None | Flat,(Intercept),0.2973159585391914,0.2573442717271697,3
+ran_vals,route_combo,Go | None | Flat | Curl,(Intercept),0.06580873689433359,0.452820849612945,4
+ran_vals,route_combo,Go | None | Go,(Intercept),0.35605487479470366,0.41140027363984505,3
+ran_vals,route_combo,Go | None | None,(Intercept),0.590477885886124,0.2171591422457274,3
+ran_vals,route_combo,Go | None | Out,(Intercept),0.2152659205622776,0.30833308846430263,3
+ran_vals,route_combo,Go | None | Underneath Screen,(Intercept),-0.28835805655294033,0.3684027986970443,3
+ran_vals,route_combo,Go | None | WR Screen,(Intercept),0.34695260434233116,0.33629308940356245,3
+ran_vals,route_combo,Go | Out,(Intercept),-0.012920143983511758,0.05403072412290291,2
+ran_vals,route_combo,Go | Out | Corner,(Intercept),-0.0818987238131675,0.2712796623151089,3
+ran_vals,route_combo,Go | Out | Cross,(Intercept),-0.29681661555103095,0.30825746392934655,3
+ran_vals,route_combo,Go | Out | Curl,(Intercept),0.1375949149189833,0.11847579583651317,3
+ran_vals,route_combo,Go | Out | Flat,(Intercept),-0.2462607821173172,0.13104270024958228,3
+ran_vals,route_combo,Go | Out | Go,(Intercept),-0.5247462332877061,0.20308915046021483,3
+ran_vals,route_combo,Go | Out | In,(Intercept),-0.1943448963791581,0.23459953861904126,3
+ran_vals,route_combo,Go | Out | None,(Intercept),0.4861766352933077,0.19159474776347435,3
+ran_vals,route_combo,Go | Out | Out,(Intercept),0.11634004100769872,0.09517539928592679,3
+ran_vals,route_combo,Go | Out | Post,(Intercept),0.14011351195808136,0.17346504579145625,3
+ran_vals,route_combo,Go | Out | Slant,(Intercept),0.05353690827456393,0.41142034054344634,3
+ran_vals,route_combo,Go | Out | Underneath Screen,(Intercept),-0.11991205544487572,0.4116371084761349,3
+ran_vals,route_combo,Go | Post,(Intercept),0.31174874639280015,0.08957379389820147,2
+ran_vals,route_combo,Go | Post | Cross,(Intercept),0.6374472944776495,0.27148161021624745,3
+ran_vals,route_combo,Go | Post | Cross | Curl,(Intercept),-0.6621300087376109,0.45284826436290515,4
+ran_vals,route_combo,Go | Post | Curl,(Intercept),0.20039669138109334,0.19708633552218457,3
+ran_vals,route_combo,Go | Post | Flat,(Intercept),-0.14854961929443958,0.11382046346238649,3
+ran_vals,route_combo,Go | Post | Go,(Intercept),0.05586481537766728,0.15146358578026706,3
+ran_vals,route_combo,Go | Post | Go | Slant,(Intercept),0.1897582365319618,0.45288443721203714,4
+ran_vals,route_combo,Go | Post | In,(Intercept),-0.29233677323100726,0.24510222732232495,3
+ran_vals,route_combo,Go | Post | None,(Intercept),0.43607623593871536,0.21710155518960117,3
+ran_vals,route_combo,Go | Post | Out,(Intercept),-0.002448223921719103,0.27115125976868365,3
+ran_vals,route_combo,Go | Post | Post,(Intercept),-0.5296153999309757,0.20982576742410117,3
+ran_vals,route_combo,Go | Post | Slant,(Intercept),0.29941951627863705,0.3335716924999137,3
+ran_vals,route_combo,Go | Slant,(Intercept),-0.05909003815746626,0.095941241212627107,2
+ran_vals,route_combo,Go | Slant | Cross,(Intercept),-1.0317386709615435,0.2879996749314732,3
+ran_vals,route_combo,Go | Slant | Curl,(Intercept),-0.06972529187256003,0.36641452043470724,3
+ran_vals,route_combo,Go | Slant | Curl | Curl,(Intercept),0.952396072133684,0.4528535983672613,4
+ran_vals,route_combo,Go | Slant | Flat,(Intercept),0.5771377631043176,0.3337840317377188,3
+ran_vals,route_combo,Go | Slant | Go,(Intercept),0.05177281331504167,0.4114314678622378,3
+ran_vals,route_combo,Go | Slant | Go | Curl,(Intercept),-0.46191225905437444,0.4528765556893216,4
+ran_vals,route_combo,Go | Slant | In,(Intercept),0.11650922095977405,0.3663599573617789,3
+ran_vals,route_combo,Go | Slant | None,(Intercept),-0.746722501777653,0.3335807413010849,3
+ran_vals,route_combo,Go | Slant | Out,(Intercept),0.035562827262705043,0.3336856035713197,3
+ran_vals,route_combo,Go | Slant | Post,(Intercept),0.3068411637770068,0.47874656727542686,3
+ran_vals,route_combo,Go | Slant | Slant,(Intercept),0.045722815149183964,0.3335285559902532,3
+ran_vals,route_combo,Go | Underneath Screen,(Intercept),0.0561854553331925,0.24064211551554615,2
+ran_vals,route_combo,Go | Underneath Screen | Flat,(Intercept),0.3428707052202044,0.47867779865393834,3
+ran_vals,route_combo,Go | WR Screen,(Intercept),-0.27689062998073755,0.3046615550635856,2
+ran_vals,route_combo,Go | WR Screen | Curl,(Intercept),0.38218956414064753,0.47867309325032686,3
+ran_vals,route_combo,Go | WR Screen | Go,(Intercept),0.3192699533993246,0.47875917645909893,3
+ran_vals,route_combo,Go | WR Screen | Go | Go,(Intercept),-0.2325277607685076,0.4528092538386041,4
+ran_vals,route_combo,Go | WR Screen | None,(Intercept),0.10841588644832749,0.2760498015053569,3
+ran_vals,route_combo,Go | WR Screen | Slant,(Intercept),-0.0976853861245208,0.4787044632219742,3
+ran_vals,route_combo,In,(Intercept),-0.060710047540748886,0.1189485910792623,1
+ran_vals,route_combo,In | Comeback,(Intercept),0.0019665816943238196,0.41131783159808355,2
+ran_vals,route_combo,In | Comeback | In,(Intercept),0.29601166610213603,0.4787115182214855,3
+ran_vals,route_combo,In | Comeback | None,(Intercept),0.25760071334074947,0.36654215956755204,3
+ran_vals,route_combo,In | Comeback | Post,(Intercept),0.21196387055616778,0.4786741272301161,3
+ran_vals,route_combo,In | Corner,(Intercept),-0.30231014045836135,0.17592696350316353,2
+ran_vals,route_combo,In | Corner | Cross,(Intercept),0.1337189978060691,0.2879272783608817,3
+ran_vals,route_combo,In | Corner | Curl,(Intercept),0.30943916180506104,0.36632495380276736,3
+ran_vals,route_combo,In | Corner | Flat,(Intercept),0.5277457044892617,0.33348477351755473,3
+ran_vals,route_combo,In | Corner | Go,(Intercept),-0.7177872499707852,0.3665362665605929,3
+ran_vals,route_combo,In | Corner | In,(Intercept),0.1521479190013522,0.2719164735558589,3
+ran_vals,route_combo,In | Corner | In | Curl,(Intercept),0.6640444950434761,0.4528504604492034,4
+ran_vals,route_combo,In | Corner | In | In,(Intercept),-0.08353282452452378,0.4534557503973722,4
+ran_vals,route_combo,In | Corner | None,(Intercept),0.08258647250122522,0.411389857095872,3
+ran_vals,route_combo,In | Corner | Post,(Intercept),0.06451621834393305,0.3334670377337726,3
+ran_vals,route_combo,In | Corner | Slant,(Intercept),0.3699845354824373,0.411621429082779,3
+ran_vals,route_combo,In | Cross,(Intercept),0.11988907620680068,0.1372870067616643,2
+ran_vals,route_combo,In | Cross | Corner,(Intercept),0.1956667796830216,0.308313448936734,3
+ran_vals,route_combo,In | Cross | Curl,(Intercept),-0.18010203014623777,0.3338457581741098,3
+ran_vals,route_combo,In | Cross | Flat,(Intercept),0.02395209386830443,0.3334725393413842,3
+ran_vals,route_combo,In | Cross | Go,(Intercept),0.32193324011181507,0.21768634462802336,3
+ran_vals,route_combo,In | Cross | Go | Go,(Intercept),-0.5034898810117907,0.4528780027332197,4
+ran_vals,route_combo,In | Cross | In,(Intercept),-0.9052626667822251,0.1924707479546088,3
+ran_vals,route_combo,In | Cross | None,(Intercept),-0.21596576218792357,0.41168459537717905,3
+ran_vals,route_combo,In | Cross | Out,(Intercept),0.015166426261751992,0.30862845516847454,3
+ran_vals,route_combo,In | Cross | Post,(Intercept),-0.020772694547583515,0.1543155219378975,3
+ran_vals,route_combo,In | Cross | Slant,(Intercept),-0.32926030429691344,0.3663225973455297,3
+ran_vals,route_combo,In | Curl,(Intercept),0.013195613903022761,0.10582664345143464,2
+ran_vals,route_combo,In | Curl | Corner,(Intercept),-0.25052211947335185,0.41160712212538714,3
+ran_vals,route_combo,In | Curl | Cross,(Intercept),0.2986622317155878,0.4115185047819773,3
+ran_vals,route_combo,In | Curl | Curl,(Intercept),0.24493984109058395,0.18197454497411222,3
+ran_vals,route_combo,In | Curl | Flat,(Intercept),-0.19904565135583735,0.2715014135139995,3
+ran_vals,route_combo,In | Curl | Go,(Intercept),-0.5418633596728896,0.2347890062134167,3
+ran_vals,route_combo,In | Curl | In,(Intercept),0.1765262313367467,0.25720648849530475,3
+ran_vals,route_combo,In | Curl | None,(Intercept),-0.26360861424741044,0.3664744390773424,3
+ran_vals,route_combo,In | Curl | Out,(Intercept),-0.8138573625640204,0.33379864776939966,3
+ran_vals,route_combo,In | Curl | Post,(Intercept),-0.14018376691811918,0.20982171944886596,3
+ran_vals,route_combo,In | Curl | Slant,(Intercept),0.16181730408779904,0.3082342880527936,3
+ran_vals,route_combo,In | Flat,(Intercept),-0.1786555779130202,0.11897016991941087,2
+ran_vals,route_combo,In | Flat | Cross,(Intercept),-0.10748788808339582,0.411542079832829,3
+ran_vals,route_combo,In | Flat | Curl,(Intercept),-0.12614127121721114,0.28789441233363416,3
+ran_vals,route_combo,In | Flat | Flat,(Intercept),-0.17038880422056943,0.4114060025715157,3
+ran_vals,route_combo,In | Flat | In,(Intercept),0.28029664321531467,0.3665619766277107,3
+ran_vals,route_combo,In | Flat | None,(Intercept),0.1938480917943301,0.3083259809636295,3
+ran_vals,route_combo,In | Flat | Slant,(Intercept),0.4054268767474897,0.4786722095612302,3
+ran_vals,route_combo,In | Go,(Intercept),-0.25265279178779126,0.11986671937222393,2
+ran_vals,route_combo,In | Go | Corner,(Intercept),-1.2435743378018358,0.4790904078067892,3
+ran_vals,route_combo,In | Go | Cross,(Intercept),-0.421750059855705,0.3664795369211791,3
+ran_vals,route_combo,In | Go | Curl,(Intercept),0.23793864432192444,0.17755580891304007,3
+ran_vals,route_combo,In | Go | Flat,(Intercept),-0.7933988395548831,0.25722285965903496,3
+ran_vals,route_combo,In | Go | Go,(Intercept),-0.07124275174729247,0.18639397664372542,3
+ran_vals,route_combo,In | Go | Go | Cross,(Intercept),-0.4857044289604544,0.45284826436290515,4
+ran_vals,route_combo,In | Go | In,(Intercept),-0.16009037317233774,0.33352907897300843,3
+ran_vals,route_combo,In | Go | None,(Intercept),-0.3315703312494211,0.4787957963213976,3
+ran_vals,route_combo,In | Go | Out,(Intercept),-0.5326304304429643,0.36664862365195655,3
+ran_vals,route_combo,In | Go | Post,(Intercept),0.118460489699359,0.1464768864484086,3
+ran_vals,route_combo,In | Go | Slant,(Intercept),0.247805609606439,0.4787872733796562,3
+ran_vals,route_combo,In | In,(Intercept),0.15931752614981026,0.11003729093329696,2
+ran_vals,route_combo,In | In | Corner,(Intercept),-0.7870930702262731,0.1737841295285862,3
+ran_vals,route_combo,In | In | Cross,(Intercept),-0.07399184117637983,0.2099025649295957,3
+ran_vals,route_combo,In | In | Curl,(Intercept),0.21042900863353045,0.2881038412365707,3
+ran_vals,route_combo,In | In | Flat,(Intercept),0.20675125597094238,0.21749122669663404,3
+ran_vals,route_combo,In | In | Go,(Intercept),-0.4165885508100141,0.1491699132759347,3
+ran_vals,route_combo,In | In | In,(Intercept),-0.5998579642114066,0.17340466665172305,3
+ran_vals,route_combo,In | In | None,(Intercept),1.025691741069341,0.33359591414350875,3
+ran_vals,route_combo,In | In | Out,(Intercept),-0.2113537735995794,0.28791366339913776,3
+ran_vals,route_combo,In | In | Post,(Intercept),0.4251024046667737,0.1343282366182006,3
+ran_vals,route_combo,In | In | Slant,(Intercept),0.2678812082898609,0.23497304564873345,3
+ran_vals,route_combo,In | None,(Intercept),-0.15174599197547126,0.17882250956647672,2
+ran_vals,route_combo,In | None | Cross,(Intercept),0.23075502287503388,0.47867503233669,3
+ran_vals,route_combo,In | None | Curl,(Intercept),-0.4173969101561766,0.47895332361875304,3
+ran_vals,route_combo,In | None | In,(Intercept),0.2989209656450788,0.4787070613614263,3
+ran_vals,route_combo,In | None | None,(Intercept),0.4882716985935777,0.33350373022014407,3
+ran_vals,route_combo,In | Out,(Intercept),-0.17866343333661366,0.12435454173107258,2
+ran_vals,route_combo,In | Out | Corner,(Intercept),-0.052568657607140086,0.30819114206248815,3
+ran_vals,route_combo,In | Out | Cross,(Intercept),0.9045562215818481,0.2713312998168302,3
+ran_vals,route_combo,In | Out | Curl,(Intercept),0.30104789328472426,0.2572024846768486,3
+ran_vals,route_combo,In | Out | Flat,(Intercept),-0.16997383085125906,0.47872139265241126,3
+ran_vals,route_combo,In | Out | Go,(Intercept),-0.011239948486294435,0.23487366515596947,3
+ran_vals,route_combo,In | Out | In,(Intercept),0.7837692951783883,0.27136092160296305,3
+ran_vals,route_combo,In | Out | None,(Intercept),0.164338144362981,0.41180117291629326,3
+ran_vals,route_combo,In | Out | Out,(Intercept),0.3225912137857089,0.47864093274124053,3
+ran_vals,route_combo,In | Out | Post,(Intercept),0.7301404058722379,0.22539520665602514,3
+ran_vals,route_combo,In | Out | Post | Curl,(Intercept),0.3605825965282806,0.4528917020454859,4
+ran_vals,route_combo,In | Out | Slant,(Intercept),0.9038057544115432,0.3663825357385715,3
+ran_vals,route_combo,In | Post,(Intercept),0.26077487426620205,0.09106424269757317,2
+ran_vals,route_combo,In | Post | Comeback,(Intercept),-0.3865483099860377,0.47881935212670945,3
+ran_vals,route_combo,In | Post | Corner,(Intercept),-0.34197167873174233,0.3339231364395483,3
+ran_vals,route_combo,In | Post | Cross,(Intercept),-0.10132001680924228,0.2100323747031434,3
+ran_vals,route_combo,In | Post | Curl,(Intercept),0.3616822819323496,0.15700126886363155,3
+ran_vals,route_combo,In | Post | Flat,(Intercept),0.5754005027581022,0.19708715644673044,3
+ran_vals,route_combo,In | Post | Go,(Intercept),0.6725094027263487,0.28800288594064155,3
+ran_vals,route_combo,In | Post | In,(Intercept),0.13172148682804183,0.2572758549429627,3
+ran_vals,route_combo,In | Post | In | Flat,(Intercept),-0.33055891560870126,0.4528176535116986,4
+ran_vals,route_combo,In | Post | None,(Intercept),0.39038852058935486,0.1818333220001806,3
+ran_vals,route_combo,In | Post | Out,(Intercept),-0.10195818292561314,0.24514828791962737,3
+ran_vals,route_combo,In | Post | Post,(Intercept),-0.05381784762167673,0.23467515017992518,3
+ran_vals,route_combo,In | Post | Post | Flat,(Intercept),-0.5954966473061145,0.4529385556538235,4
+ran_vals,route_combo,In | Post | Slant,(Intercept),0.40790145263603417,0.4115101603454116,3
+ran_vals,route_combo,In | Post | Slant | Flat,(Intercept),-0.5741635975408224,0.452820849612945,4
+ran_vals,route_combo,In | Slant,(Intercept),-0.053424777737156245,0.12524043873542323,2
+ran_vals,route_combo,In | Slant | Corner,(Intercept),-0.26694634066153217,0.3084239622358068,3
+ran_vals,route_combo,In | Slant | Cross,(Intercept),-0.674336324051156,0.22555835834865742,3
+ran_vals,route_combo,In | Slant | Curl,(Intercept),-0.138909648361212,0.41140928001249727,3
+ran_vals,route_combo,In | Slant | Flat,(Intercept),0.1099512769256812,0.3664003079814404,3
+ran_vals,route_combo,In | Slant | Go,(Intercept),-0.06712569608463102,0.24520030981578766,3
+ran_vals,route_combo,In | Slant | In,(Intercept),-0.5961248409460886,0.24539540886643862,3
+ran_vals,route_combo,In | Slant | None,(Intercept),-0.5466993000407134,0.4787094015025612,3
+ran_vals,route_combo,In | Slant | Out,(Intercept),0.7000471862838236,0.41149999942809284,3
+ran_vals,route_combo,In | Slant | Post,(Intercept),-0.39880414606849596,0.28802469706070294,3
+ran_vals,route_combo,In | Slant | Slant,(Intercept),-0.34089056576689486,0.17741621074724506,3
+ran_vals,route_combo,In | Underneath Screen,(Intercept),-0.26269895554528877,0.5099245605221282,2
+ran_vals,route_combo,In | WR Screen,(Intercept),-0.28848049514158886,0.45339826626384355,2
+ran_vals,route_combo,In | WR Screen | Corner,(Intercept),-0.5283699331093877,0.47874652932904194,3
+ran_vals,route_combo,None | Corner,(Intercept),0.5736978154710292,0.33350771267893153,2
+ran_vals,route_combo,None | Corner | Curl,(Intercept),0.9206586394677497,0.4787355534151097,3
+ran_vals,route_combo,None | Corner | Flat,(Intercept),0.10337811841635529,0.4787129651623944,3
+ran_vals,route_combo,None | Corner | None,(Intercept),-0.5931956720481756,0.47867779865393834,3
+ran_vals,route_combo,None | Corner | Out,(Intercept),-0.27905308523747174,0.47871817788232884,3
+ran_vals,route_combo,None | Cross,(Intercept),-0.1274743857017614,0.15339702223702248,2
+ran_vals,route_combo,None | Cross | Flat,(Intercept),-0.2285343018600961,0.4786926964313444,3
+ran_vals,route_combo,None | Cross | Flat | Flat,(Intercept),-1.740297429203043,0.4528992642482417,4
+ran_vals,route_combo,None | Cross | None,(Intercept),-0.4903286594222657,0.30861850228989524,3
+ran_vals,route_combo,None | Curl,(Intercept),0.3459591989955296,0.33339452669303904,2
+ran_vals,route_combo,None | Curl | Flat,(Intercept),-0.17231754264760807,0.33419242050821973,3
+ran_vals,route_combo,None | Curl | Go,(Intercept),0.755889227096648,0.4114598243017403,3
+ran_vals,route_combo,None | Curl | In,(Intercept),-0.20358976481301522,0.4789310255145852,3
+ran_vals,route_combo,None | Flat,(Intercept),0.18923017849099083,0.16199543922056006,2
+ran_vals,route_combo,None | Flat | Corner,(Intercept),-0.512713569788492,0.47875380425499325,3
+ran_vals,route_combo,None | Flat | Curl,(Intercept),0.3415061836300424,0.4788816293983405,3
+ran_vals,route_combo,None | Flat | Go,(Intercept),-0.3207036042956702,0.478720355638352,3
+ran_vals,route_combo,None | Flat | Out,(Intercept),-0.5853029667802369,0.4786570502115254,3
+ran_vals,route_combo,None | Go,(Intercept),0.6038297534930521,0.22825459735120746,2
+ran_vals,route_combo,None | Go | None,(Intercept),0.7929472200800552,0.36648715957128314,3
+ran_vals,route_combo,None | Go | Post,(Intercept),-0.20984519871731963,0.47872168293129647,3
+ran_vals,route_combo,None | In,(Intercept),0.22438257646074627,0.5097052309970017,2
+ran_vals,route_combo,None | In | None,(Intercept),-0.30293555820273105,0.4787004023838474,3
+ran_vals,route_combo,None | None,(Intercept),-0.1622728369969014,0.509655183325747,2
+ran_vals,route_combo,None | None | Cross,(Intercept),0.1995434959571307,0.26116160403498206,3
+ran_vals,route_combo,None | None | Curl,(Intercept),-0.3562423341484135,0.47868311421146365,3
+ran_vals,route_combo,None | None | Flat,(Intercept),-0.7052645865306626,0.27247551473321596,3
+ran_vals,route_combo,None | None | Go,(Intercept),-0.2951464042237226,0.3334853779984275,3
+ran_vals,route_combo,None | None | None | WR Screen,(Intercept),-0.0011010069894203552,0.3046637612908645,4
+ran_vals,route_combo,None | None | Underneath Screen,(Intercept),-0.2724373507315356,0.21068812595662223,3
+ran_vals,route_combo,None | None | WR Screen,(Intercept),-0.004827435387942685,0.09063495193306378,3
+ran_vals,route_combo,None | None | WR Screen | None,(Intercept),-0.20248566438275795,0.33641333239986937,4
+ran_vals,route_combo,None | Out,(Intercept),0.3575623340725754,0.2663536213346404,2
+ran_vals,route_combo,None | Out | Curl,(Intercept),0.06125880253321899,0.4787570902888503,3
+ran_vals,route_combo,None | Out | Flat,(Intercept),0.02806196824595981,0.33351844288440324,3
+ran_vals,route_combo,None | Out | None,(Intercept),-0.26857115539731635,0.41152006267479646,3
+ran_vals,route_combo,None | Out | Underneath Screen,(Intercept),-0.23990873049748856,0.47918257637842376,3
+ran_vals,route_combo,None | Post,(Intercept),0.4268452069672942,0.3159889078454414,2
+ran_vals,route_combo,None | Post | Cross,(Intercept),0.22582483172512438,0.4786785694102669,3
+ran_vals,route_combo,None | Post | None,(Intercept),0.401059793116794,0.3336711030984237,3
+ran_vals,route_combo,None | Post | Post,(Intercept),0.1978118005263149,0.478720355638352,3
+ran_vals,route_combo,None | Post | WR Screen,(Intercept),-0.5389262755941763,0.4126845787379188,3
+ran_vals,route_combo,None | Slant,(Intercept),0.19509807634194956,0.45263681863057326,2
+ran_vals,route_combo,None | Slant | Curl,(Intercept),0.21031298333873863,0.47871570927031554,3
+ran_vals,route_combo,None | Slant | Flat,(Intercept),-0.24006472055926348,0.41166745663644616,3
+ran_vals,route_combo,None | Slant | Go,(Intercept),-0.3862051136541297,0.47882828861274523,3
+ran_vals,route_combo,None | Slant | None,(Intercept),0.16321697493193998,0.47892204428729473,3
+ran_vals,route_combo,None | Slant | Slant,(Intercept),-1.1574370139081571,0.4786711448760968,3
+ran_vals,route_combo,None | Underneath Screen,(Intercept),0.15589650360621618,0.18286046662699318,2
+ran_vals,route_combo,None | Underneath Screen | Corner,(Intercept),-0.22487871242427032,0.4792212045089705,3
+ran_vals,route_combo,None | WR Screen,(Intercept),0.10317923771478846,0.12980119570665508,2
+ran_vals,route_combo,None | WR Screen | None,(Intercept),-0.26879602215682197,0.10626496216595314,3
+ran_vals,route_combo,None | WR Screen | None | None,(Intercept),-0.02979535276156824,0.21529724845361142,4
+ran_vals,route_combo,Out,(Intercept),-0.028807567528420217,0.09676283252252921,1
+ran_vals,route_combo,Out | Comeback,(Intercept),-0.2918512504824807,0.4527106792541591,2
+ran_vals,route_combo,Out | Corner,(Intercept),0.10291639774250728,0.10303009545646194,2
+ran_vals,route_combo,Out | Corner | Corner,(Intercept),-0.652682722973057,0.36671971684408416,3
+ran_vals,route_combo,Out | Corner | Cross,(Intercept),0.005569353861410534,0.24533933947359352,3
+ran_vals,route_combo,Out | Corner | Curl,(Intercept),0.32334450052293223,0.15964014889586076,3
+ran_vals,route_combo,Out | Corner | Flat,(Intercept),0.09883047543335997,0.18649357303975478,3
+ran_vals,route_combo,Out | Corner | Go,(Intercept),0.07828775873905065,0.4786771305955914,3
+ran_vals,route_combo,Out | Corner | In,(Intercept),-0.38590587456914544,0.3663380663509347,3
+ran_vals,route_combo,Out | Corner | None,(Intercept),-0.24245497119280246,0.16606357042662928,3
+ran_vals,route_combo,Out | Corner | Out,(Intercept),-0.10177449285970551,0.16659138729420772,3
+ran_vals,route_combo,Out | Corner | Underneath Screen,(Intercept),0.119939182337624,0.479035446519037,3
+ran_vals,route_combo,Out | Cross,(Intercept),0.2260362817773846,0.2282373199698212,2
+ran_vals,route_combo,Out | Cross | Corner,(Intercept),-0.6877985762260234,0.33371047975372164,3
+ran_vals,route_combo,Out | Cross | Corner | In,(Intercept),-0.28752634916703323,0.38003663323162556,4
+ran_vals,route_combo,Out | Cross | Curl,(Intercept),-0.34144432122723206,0.33346397624165797,3
+ran_vals,route_combo,Out | Cross | Curl | Flat,(Intercept),0.4697725407369175,0.4527919268409422,4
+ran_vals,route_combo,Out | Cross | Flat,(Intercept),-1.9763510944751375,0.3663246482825927,3
+ran_vals,route_combo,Out | Cross | In,(Intercept),0.018862331513348263,0.21082299872593996,3
+ran_vals,route_combo,Out | Cross | Out,(Intercept),0.48076780049300005,0.4786759449558272,3
+ran_vals,route_combo,Out | Cross | Post,(Intercept),0.45419580315951535,0.28811459185645805,3
+ran_vals,route_combo,Out | Cross | Slant,(Intercept),0.6696550718979175,0.41143815544231854,3
+ran_vals,route_combo,Out | Curl,(Intercept),-0.0976897910803875,0.08204996180210761,2
+ran_vals,route_combo,Out | Curl | Corner,(Intercept),-0.3930458560477022,0.2881533784391566,3
+ran_vals,route_combo,Out | Curl | Cross,(Intercept),0.07529196631276901,0.4787078905898088,3
+ran_vals,route_combo,Out | Curl | Curl,(Intercept),0.07965933918146169,0.10737588601063287,3
+ran_vals,route_combo,Out | Curl | Flat,(Intercept),-0.4362014936989908,0.25715925416317653,3
+ran_vals,route_combo,Out | Curl | Go,(Intercept),-0.23707888585924508,0.2572457123275726,3
+ran_vals,route_combo,Out | Curl | In,(Intercept),-0.877795131717018,0.47869960684740476,3
+ran_vals,route_combo,Out | Curl | None,(Intercept),0.05523959300239228,0.30833469146718134,3
+ran_vals,route_combo,Out | Curl | Out,(Intercept),0.30825269473807393,0.3082001562760338,3
+ran_vals,route_combo,Out | Curl | Post,(Intercept),0.33769349135691856,0.36640011966304814,3
+ran_vals,route_combo,Out | Curl | Slant,(Intercept),0.3567382205224603,0.4786633455157267,3
+ran_vals,route_combo,Out | Flat,(Intercept),-0.0837762471371473,0.0966144496864827,2
+ran_vals,route_combo,Out | Flat | Corner,(Intercept),0.06153603246659988,0.3665574516089267,3
+ran_vals,route_combo,Out | Flat | Curl,(Intercept),-0.017774933850166676,0.36653104201937425,3
+ran_vals,route_combo,Out | Flat | Flat,(Intercept),0.11414094372842916,0.4115611082111624,3
+ran_vals,route_combo,Out | Flat | None,(Intercept),0.4571410115466933,0.2572036627417047,3
+ran_vals,route_combo,Out | Flat | Out,(Intercept),0.2471233260069114,0.478720355638352,3
+ran_vals,route_combo,Out | Go,(Intercept),-0.06439578576471046,0.13368355427755726,2
+ran_vals,route_combo,Out | Go | Corner,(Intercept),0.2517384818296048,0.3664205102161816,3
+ran_vals,route_combo,Out | Go | Cross,(Intercept),0.33407354810488704,0.4114804577686907,3
+ran_vals,route_combo,Out | Go | Curl,(Intercept),0.7083813128093059,0.33349176501249844,3
+ran_vals,route_combo,Out | Go | Flat,(Intercept),-0.012399867767018586,0.2880927200940807,3
+ran_vals,route_combo,Out | Go | Go,(Intercept),-0.4672252011553563,0.2711807683268422,3
+ran_vals,route_combo,Out | Go | In,(Intercept),1.0079989024153304,0.3663508128079264,3
+ran_vals,route_combo,Out | Go | None,(Intercept),-0.7192689471423889,0.33349646598255483,3
+ran_vals,route_combo,Out | Go | Out,(Intercept),-0.630444210426194,0.1973107203383269,3
+ran_vals,route_combo,Out | Go | Post,(Intercept),0.47286638933192643,0.3081890491082342,3
+ran_vals,route_combo,Out | In,(Intercept),-0.18320186722850926,0.173290785355395,2
+ran_vals,route_combo,Out | In | Corner,(Intercept),-0.8478043443432045,0.36630046979746217,3
+ran_vals,route_combo,Out | In | Cross,(Intercept),1.5127572970769207,0.33364870282909254,3
+ran_vals,route_combo,Out | In | Curl,(Intercept),-0.08116329411110909,0.3342465136859923,3
+ran_vals,route_combo,Out | In | Flat,(Intercept),0.7887844748165673,0.4114486533488937,3
+ran_vals,route_combo,Out | In | Go,(Intercept),-0.13968327255807925,0.4787322775037024,3
+ran_vals,route_combo,Out | In | In,(Intercept),0.3335681402339434,0.3334539407803748,3
+ran_vals,route_combo,Out | In | Out,(Intercept),-0.8834139246655103,0.2714200220527583,3
+ran_vals,route_combo,Out | In | Post,(Intercept),0.19174127096755475,0.333750801811005,3
+ran_vals,route_combo,Out | In | Slant,(Intercept),-0.4636853266145904,0.47867458650099404,3
+ran_vals,route_combo,Out | None,(Intercept),0.1346884560415195,0.11456393642217734,2
+ran_vals,route_combo,Out | None | Corner,(Intercept),-0.22084573319740675,0.366569259043264,3
+ran_vals,route_combo,Out | None | Cross,(Intercept),0.4982017118628002,0.4786692297286494,3
+ran_vals,route_combo,Out | None | Go,(Intercept),1.0426503287080926,0.47867309325032686,3
+ran_vals,route_combo,Out | None | In,(Intercept),0.5903008590141311,0.47870719161528086,3
+ran_vals,route_combo,Out | None | None,(Intercept),0.1384429991492157,0.20971120213447805,3
+ran_vals,route_combo,Out | None | Out,(Intercept),-0.5553846914667812,0.4113473637477262,3
+ran_vals,route_combo,Out | None | Slant | None,(Intercept),0.44063851559533834,0.4544231950610988,4
+ran_vals,route_combo,Out | Out,(Intercept),-0.07894291970464826,0.08192013962624003,2
+ran_vals,route_combo,Out | Out | Comeback,(Intercept),0.417365564429583,0.4787063344787783,3
+ran_vals,route_combo,Out | Out | Corner,(Intercept),-0.5915862993920419,0.23507501243763346,3
+ran_vals,route_combo,Out | Out | Corner | In,(Intercept),-0.4043027923663515,0.4528286701549704,4
+ran_vals,route_combo,Out | Out | Cross,(Intercept),-0.19095647688515618,0.30865108083790516,3
+ran_vals,route_combo,Out | Out | Curl,(Intercept),0.1521261288388311,0.27126550590166576,3
+ran_vals,route_combo,Out | Out | Flat,(Intercept),0.1661394773647261,0.3083264708753626,3
+ran_vals,route_combo,Out | Out | Go,(Intercept),-0.18186737445278475,0.4118129310306474,3
+ran_vals,route_combo,Out | Out | In,(Intercept),0.26267538212140973,0.2714536869446338,3
+ran_vals,route_combo,Out | Out | None,(Intercept),0.3642040752983819,0.2715166900283995,3
+ran_vals,route_combo,Out | Out | Out,(Intercept),-0.6147367696894566,0.2714588847010342,3
+ran_vals,route_combo,Out | Out | Post,(Intercept),0.031169934432598478,0.3336427021290722,3
+ran_vals,route_combo,Out | Post,(Intercept),-0.11896212070403406,0.1787984477256753,2
+ran_vals,route_combo,Out | Post | Corner,(Intercept),0.044332104541936944,0.36645404967958356,3
+ran_vals,route_combo,Out | Post | Cross,(Intercept),0.21685114426979324,0.30835558020734594,3
+ran_vals,route_combo,Out | Post | Curl,(Intercept),0.17737253029556777,0.28816856694913373,3
+ran_vals,route_combo,Out | Post | Flat,(Intercept),-0.15710828937141996,0.2883664287110725,3
+ran_vals,route_combo,Out | Post | Go,(Intercept),0.39232024913057134,0.23471782026888813,3
+ran_vals,route_combo,Out | Post | In,(Intercept),0.14494463809436425,0.36634238752539455,3
+ran_vals,route_combo,Out | Post | None,(Intercept),-0.530918927088495,0.3665942784815661,3
+ran_vals,route_combo,Out | Post | Out,(Intercept),0.30293807808745815,0.2255119961531291,3
+ran_vals,route_combo,Out | Post | Post,(Intercept),-0.5755593156809248,0.3667771275998026,3
+ran_vals,route_combo,Out | Post | Slant,(Intercept),0.6892858812602536,0.4786792559165588,3
+ran_vals,route_combo,Out | Slant,(Intercept),0.49802512392142534,0.21708596775910927,2
+ran_vals,route_combo,Out | Slant | Corner,(Intercept),0.003811736617094893,0.4789199182423448,3
+ran_vals,route_combo,Out | Slant | Corner | In,(Intercept),0.9683195753120329,0.4530207804724741,4
+ran_vals,route_combo,Out | Slant | Curl | Flat,(Intercept),0.5420614578254005,0.4527919268409422,4
+ran_vals,route_combo,Out | Slant | Go,(Intercept),0.23747387967805716,0.41142244320100985,3
+ran_vals,route_combo,Out | Slant | None,(Intercept),-0.1253070512161171,0.3338289069154032,3
+ran_vals,route_combo,Out | Slant | Slant,(Intercept),0.8713623641029582,0.47879415427945776,3
+ran_vals,route_combo,Out | Underneath Screen,(Intercept),-0.0836016877340161,0.5099331696876478,2
+ran_vals,route_combo,Post,(Intercept),0.07860848819595366,0.11306120353176018,1
+ran_vals,route_combo,Post | Comeback | Flat,(Intercept),-0.10741873591927027,0.47867779865393834,3
+ran_vals,route_combo,Post | Corner,(Intercept),0.7285730105322961,0.1707733560208006,2
+ran_vals,route_combo,Post | Corner | Flat,(Intercept),0.3268177430143551,0.30822440207742513,3
+ran_vals,route_combo,Post | Corner | None,(Intercept),0.9871598472326769,0.47868887280815187,3
+ran_vals,route_combo,Post | Corner | Out,(Intercept),0.03402698081029455,0.33391819492621605,3
+ran_vals,route_combo,Post | Corner | Post,(Intercept),-0.22738864406704815,0.4786930693056618,3
+ran_vals,route_combo,Post | Cross,(Intercept),-0.04432731767213408,0.15033080608157393,2
+ran_vals,route_combo,Post | Cross | Curl,(Intercept),-0.5814250336384981,0.30850708893495393,3
+ran_vals,route_combo,Post | Cross | Flat,(Intercept),-0.12045841853372732,0.4115307076428112,3
+ran_vals,route_combo,Post | Cross | Go,(Intercept),0.7750650216080758,0.36655297117172375,3
+ran_vals,route_combo,Post | Cross | In,(Intercept),-0.7146385702835689,0.23463590656777225,3
+ran_vals,route_combo,Post | Cross | None,(Intercept),-0.1472465967953905,0.20311672182808355,3
+ran_vals,route_combo,Post | Cross | Out,(Intercept),0.4919740301633589,0.4786792559165588,3
+ran_vals,route_combo,Post | Cross | Post,(Intercept),0.771138215417308,0.36635797293996586,3
+ran_vals,route_combo,Post | Curl,(Intercept),0.09697864793829654,0.1314408072843388,2
+ran_vals,route_combo,Post | Curl | Cross,(Intercept),0.004330591460275495,0.47907812456940996,3
+ran_vals,route_combo,Post | Curl | Curl,(Intercept),-0.5895339039132212,0.3084416683301842,3
+ran_vals,route_combo,Post | Curl | Flat,(Intercept),0.08554372108313772,0.2456399756184047,3
+ran_vals,route_combo,Post | Curl | Go,(Intercept),0.31040639129563197,0.2173079870683789,3
+ran_vals,route_combo,Post | Curl | Go | Go,(Intercept),0.5242026332868291,0.45286063982353214,4
+ran_vals,route_combo,Post | Curl | In,(Intercept),-0.1323203959486395,0.41148038681982285,3
+ran_vals,route_combo,Post | Curl | None,(Intercept),-0.31126609676166733,0.4786985687257916,3
+ran_vals,route_combo,Post | Curl | Out,(Intercept),0.2175897004292696,0.3663651527089596,3
+ran_vals,route_combo,Post | Curl | Post,(Intercept),0.5860482153098912,0.21002519810592077,3
+ran_vals,route_combo,Post | Flat,(Intercept),-0.008959940603943322,0.07747269674811921,2
+ran_vals,route_combo,Post | Flat | Cross,(Intercept),0.018951258093292823,0.4809588809178914,3
+ran_vals,route_combo,Post | Flat | Curl,(Intercept),-0.25684849517219044,0.4786921653387153,3
+ran_vals,route_combo,Post | Flat | Flat,(Intercept),-0.0882640665402691,0.41137591149519337,3
+ran_vals,route_combo,Post | Flat | In,(Intercept),-0.04127505870202814,0.41136266315243314,3
+ran_vals,route_combo,Post | Flat | None,(Intercept),-0.2220037109018648,0.2714021860872491,3
+ran_vals,route_combo,Post | Flat | Out,(Intercept),-1.5699469650151352,0.4798119485435522,3
+ran_vals,route_combo,Post | Flat | Post,(Intercept),-0.3847693949525789,0.41135644084361284,3
+ran_vals,route_combo,Post | Go,(Intercept),0.3620230821503883,0.12624854317913464,2
+ran_vals,route_combo,Post | Go | Corner,(Intercept),0.7650955055344251,0.41196050248999194,3
+ran_vals,route_combo,Post | Go | Cross,(Intercept),-0.0049445073927264225,0.27157466043339484,3
+ran_vals,route_combo,Post | Go | Curl,(Intercept),-0.3232527068641686,0.25732070514195765,3
+ran_vals,route_combo,Post | Go | Flat,(Intercept),-0.08802792247471034,0.2098448051535107,3
+ran_vals,route_combo,Post | Go | Go,(Intercept),0.4638169487019466,0.41136729466136635,3
+ran_vals,route_combo,Post | Go | In,(Intercept),0.21398404812532,0.3083873729919836,3
+ran_vals,route_combo,Post | Go | None,(Intercept),0.10913942943111715,0.4113780077534376,3
+ran_vals,route_combo,Post | Go | Out,(Intercept),-0.714746323538491,0.271257016874621,3
+ran_vals,route_combo,Post | Go | Post,(Intercept),-0.7660971742812329,0.41140262896994795,3
+ran_vals,route_combo,Post | Go | Post | Flat,(Intercept),-0.31506332720579716,0.45281629545556956,4
+ran_vals,route_combo,Post | Go | Underneath Screen,(Intercept),0.22302168314111112,0.4792321132690094,3
+ran_vals,route_combo,Post | In,(Intercept),0.38604954864062374,0.15965729197449552,2
+ran_vals,route_combo,Post | In | Cross,(Intercept),-0.667540768347052,0.27140628961534574,3
+ran_vals,route_combo,Post | In | Curl,(Intercept),0.2815772262009938,0.3083553615540749,3
+ran_vals,route_combo,Post | In | Flat,(Intercept),-0.9016549739331875,0.2450764560419979,3
+ran_vals,route_combo,Post | In | Go,(Intercept),0.06214341702386604,0.3084545603729354,3
+ran_vals,route_combo,Post | In | In,(Intercept),0.1797714762512385,0.4114011144293816,3
+ran_vals,route_combo,Post | In | None,(Intercept),0.3482452413904852,0.36632512179411386,3
+ran_vals,route_combo,Post | In | Out,(Intercept),-0.3616844641814517,0.4786792559165588,3
+ran_vals,route_combo,Post | In | Post,(Intercept),0.12994931260947398,0.2346492437360191,3
+ran_vals,route_combo,Post | None,(Intercept),0.2792690819162289,0.10113014445501486,2
+ran_vals,route_combo,Post | None | Cross,(Intercept),0.25476301858126854,0.3335747810049843,3
+ran_vals,route_combo,Post | None | Go,(Intercept),0.6090774185591207,0.411418738104301,3
+ran_vals,route_combo,Post | None | None,(Intercept),0.3005787953084526,0.14424536800261084,3
+ran_vals,route_combo,Post | Out,(Intercept),-0.35946291903549354,0.122569366748699,2
+ran_vals,route_combo,Post | Out | Corner,(Intercept),-0.34829674475389255,0.4789102797935802,3
+ran_vals,route_combo,Post | Out | Cross,(Intercept),0.4422112093347749,0.4787004023838474,3
+ran_vals,route_combo,Post | Out | Curl,(Intercept),0.26054536696396763,0.2714809792765799,3
+ran_vals,route_combo,Post | Out | Flat,(Intercept),0.16509230031246178,0.166237147883531,3
+ran_vals,route_combo,Post | Out | Go,(Intercept),-0.6778532587819175,0.4787044632219742,3
+ran_vals,route_combo,Post | Out | In,(Intercept),-0.3894592263450396,0.41145239417587093,3
+ran_vals,route_combo,Post | Out | None,(Intercept),0.08025329701949493,0.30844361825240163,3
+ran_vals,route_combo,Post | Out | Out,(Intercept),-0.5381784602818398,0.30835266605605893,3
+ran_vals,route_combo,Post | Out | Out | Flat,(Intercept),0.8387270317137097,0.45283559713553445,4
+ran_vals,route_combo,Post | Out | Post,(Intercept),0.1843390205737757,0.27123559202129804,3
+ran_vals,route_combo,Post | Post,(Intercept),-0.250332323183041,0.1505500057463773,2
+ran_vals,route_combo,Post | Post | Cross,(Intercept),-0.3089929648783175,0.23457177571961602,3
+ran_vals,route_combo,Post | Post | Curl,(Intercept),1.1825793464651766,0.4115147033043789,3
+ran_vals,route_combo,Post | Post | Flat,(Intercept),0.4502998274739992,0.17345819169488969,3
+ran_vals,route_combo,Post | Post | Go,(Intercept),-1.404766666940609,0.2879194597942391,3
+ran_vals,route_combo,Post | Post | In,(Intercept),0.2943025062760956,0.3336714958538844,3
+ran_vals,route_combo,Post | Post | In | Flat,(Intercept),-0.25771922542617837,0.452898022399302,4
+ran_vals,route_combo,Post | Post | None,(Intercept),0.8388642241166115,0.2099051639143347,3
+ran_vals,route_combo,Post | Post | Out,(Intercept),-1.076211964483344,0.3663649623435949,3
+ran_vals,route_combo,Post | Post | Post,(Intercept),1.753016290900407,0.3083053631851586,3
+ran_vals,route_combo,Post | Post | Slant,(Intercept),0.30223675684334206,0.4786759449558272,3
+ran_vals,route_combo,Post | Slant,(Intercept),0.3893804890660703,0.3160223701281332,2
+ran_vals,route_combo,Post | Slant | Flat,(Intercept),0.36342701325265,0.4786766250635956,3
+ran_vals,route_combo,Post | Slant | Post,(Intercept),-0.03540634162965214,0.4786921653387153,3
+ran_vals,route_combo,Post | Underneath Screen,(Intercept),-0.23292139532629633,0.28079603811983783,2
+ran_vals,route_combo,Post | WR Screen,(Intercept),-0.17287088882937063,0.3805456822749243,2
+ran_vals,route_combo,Slant,(Intercept),0.24221368259951265,0.08977012345238386,1
+ran_vals,route_combo,Slant | Comeback,(Intercept),0.05430702053380481,0.4526516835699345,2
+ran_vals,route_combo,Slant | Comeback | None,(Intercept),0.09505616172860852,0.47875380425499325,3
+ran_vals,route_combo,Slant | Comeback | Slant,(Intercept),0.16210292256312223,0.47895678643884837,3
+ran_vals,route_combo,Slant | Corner,(Intercept),0.05056378399487967,0.1950983972988074,2
+ran_vals,route_combo,Slant | Corner | Cross,(Intercept),-0.1028934789507422,0.4114593047176793,3
+ran_vals,route_combo,Slant | Corner | Flat,(Intercept),-0.580705077831365,0.4787169957519063,3
+ran_vals,route_combo,Slant | Corner | Go,(Intercept),0.6921104458225699,0.4787169957519063,3
+ran_vals,route_combo,Slant | Corner | In,(Intercept),0.08565946565845907,0.366722289467864,3
+ran_vals,route_combo,Slant | Corner | Out,(Intercept),-0.15302674817530035,0.3663573003612033,3
+ran_vals,route_combo,Slant | Corner | Post,(Intercept),-1.3132109548363278,0.3666841677348294,3
+ran_vals,route_combo,Slant | Cross,(Intercept),0.1702929931681506,0.22242792440306003,2
+ran_vals,route_combo,Slant | Cross | Cross,(Intercept),-0.513020388196358,0.47871056912618437,3
+ran_vals,route_combo,Slant | Cross | Curl,(Intercept),-0.44508809787447356,0.4786766250635956,3
+ran_vals,route_combo,Slant | Cross | In,(Intercept),0.8248889342603684,0.4114411863987108,3
+ran_vals,route_combo,Slant | Cross | In | Cross,(Intercept),1.3186388862924598,0.4527919268409422,4
+ran_vals,route_combo,Slant | Cross | None,(Intercept),-0.13878942705745856,0.411719174209522,3
+ran_vals,route_combo,Slant | Cross | Out,(Intercept),0.06823516111403793,0.478720388012835,3
+ran_vals,route_combo,Slant | Cross | Post,(Intercept),-0.06830871245557578,0.4115897700396807,3
+ran_vals,route_combo,Slant | Cross | Slant,(Intercept),0.7041257108641468,0.47881666346188484,3
+ran_vals,route_combo,Slant | Curl,(Intercept),-0.09243133666394171,0.13992483463640162,2
+ran_vals,route_combo,Slant | Curl | Corner,(Intercept),0.18569018819838337,0.4114359945173702,3
+ran_vals,route_combo,Slant | Curl | Curl,(Intercept),-0.20009570761488712,0.2879517552675298,3
+ran_vals,route_combo,Slant | Curl | Flat,(Intercept),0.5201110463458283,0.33354664163311826,3
+ran_vals,route_combo,Slant | Curl | Go,(Intercept),-0.4694378901848898,0.333643004165173,3
+ran_vals,route_combo,Slant | Curl | In,(Intercept),-0.2776573853395483,0.478720388012835,3
+ran_vals,route_combo,Slant | Curl | Out,(Intercept),0.4776204055561507,0.4787078905898088,3
+ran_vals,route_combo,Slant | Curl | Post,(Intercept),-0.7885222168849809,0.33358549547070526,3
+ran_vals,route_combo,Slant | Flat,(Intercept),-0.039402492501197546,0.08091735199342086,2
+ran_vals,route_combo,Slant | Flat | Corner,(Intercept),0.05457883897314557,0.4786754331334904,3
+ran_vals,route_combo,Slant | Flat | Cross,(Intercept),0.3063135264569927,0.4115017964553404,3
+ran_vals,route_combo,Slant | Flat | Curl,(Intercept),-0.3906926215467181,0.1817681285145069,3
+ran_vals,route_combo,Slant | Flat | Flat,(Intercept),0.024682381567278998,0.3092923962955195,3
+ran_vals,route_combo,Slant | Flat | Go,(Intercept),0.5833773126668729,0.4787872733796562,3
+ran_vals,route_combo,Slant | Flat | None,(Intercept),0.811134541115501,0.2880388547020248,3
+ran_vals,route_combo,Slant | Flat | Post,(Intercept),-0.03372676067567618,0.47868251413925794,3
+ran_vals,route_combo,Slant | Flat | Slant,(Intercept),0.010547047884649165,0.4787872733796562,3
+ran_vals,route_combo,Slant | Go,(Intercept),0.17298862911297436,0.14418118865451665,2
+ran_vals,route_combo,Slant | Go | Comeback,(Intercept),0.3073366109078671,0.4786985687257916,3
+ran_vals,route_combo,Slant | Go | Cross,(Intercept),0.02981123564462255,0.3664224731636324,3
+ran_vals,route_combo,Slant | Go | Curl,(Intercept),-0.7036262889954015,0.3665398698750501,3
+ran_vals,route_combo,Slant | Go | Go,(Intercept),-0.39179937650201846,0.19164067094284998,3
+ran_vals,route_combo,Slant | Go | In,(Intercept),0.3652526544440156,0.3664198899420603,3
+ran_vals,route_combo,Slant | Go | None,(Intercept),0.20511853385518986,0.30822036970837763,3
+ran_vals,route_combo,Slant | Go | Out,(Intercept),-0.796482911656365,0.308388660652348,3
+ran_vals,route_combo,Slant | Go | Post,(Intercept),-0.5451272124492919,0.19190394795079158,3
+ran_vals,route_combo,Slant | Go | Post | Out,(Intercept),-0.5802203136698154,0.45325162626362997,4
+ran_vals,route_combo,Slant | Go | Slant,(Intercept),-0.6466681974217686,0.2884102175835196,3
+ran_vals,route_combo,Slant | In,(Intercept),-0.3179546852775509,0.21721268140274985,2
+ran_vals,route_combo,Slant | In | Corner,(Intercept),-0.19858554123457656,0.41157483587506605,3
+ran_vals,route_combo,Slant | In | Cross,(Intercept),0.9526032418545052,0.4114207816164412,3
+ran_vals,route_combo,Slant | In | Curl,(Intercept),-0.08626683930354859,0.4790893404575864,3
+ran_vals,route_combo,Slant | In | Flat,(Intercept),0.5129323080499497,0.47875174511613877,3
+ran_vals,route_combo,Slant | In | In,(Intercept),-0.36199407359885055,0.4787957963213976,3
+ran_vals,route_combo,Slant | In | None,(Intercept),-1.0881820035276526,0.47867458650099404,3
+ran_vals,route_combo,Slant | In | Out,(Intercept),0.5533529391917654,0.4787004343303985,3
+ran_vals,route_combo,Slant | In | Post,(Intercept),-0.03532903296399101,0.33347335021886726,3
+ran_vals,route_combo,Slant | In | Slant,(Intercept),-0.13784398491181452,0.33352311412026764,3
+ran_vals,route_combo,Slant | None,(Intercept),0.13437083031673988,0.14137766964740991,2
+ran_vals,route_combo,Slant | None | Corner,(Intercept),0.7412429889409394,0.3337848293622645,3
+ran_vals,route_combo,Slant | None | Flat,(Intercept),0.052179898610011655,0.47895678643884837,3
+ran_vals,route_combo,Slant | None | In,(Intercept),0.02530990118666382,0.4113851846563952,3
+ran_vals,route_combo,Slant | None | None,(Intercept),-0.2898154160378598,0.3081688783019893,3
+ran_vals,route_combo,Slant | None | Post,(Intercept),-0.36675023947551927,0.36633292618075736,3
+ran_vals,route_combo,Slant | None | Slant,(Intercept),-0.5528233392191697,0.4787070613614263,3
+ran_vals,route_combo,Slant | Out,(Intercept),-0.26184952448003446,0.12720615986863726,2
+ran_vals,route_combo,Slant | Out | Corner,(Intercept),-0.6022952496898173,0.2712323756146088,3
+ran_vals,route_combo,Slant | Out | Cross,(Intercept),-0.45712783676477614,0.4113947018308397,3
+ran_vals,route_combo,Slant | Out | Curl,(Intercept),0.5061953875397154,0.41143755566153534,3
+ran_vals,route_combo,Slant | Out | Curl | Flat,(Intercept),-0.6030744676391251,0.4527911578991982,4
+ran_vals,route_combo,Slant | Out | Go,(Intercept),0.08905053001357183,0.2880205817788194,3
+ran_vals,route_combo,Slant | Out | In,(Intercept),-0.7699160307729691,0.3337657606026737,3
+ran_vals,route_combo,Slant | Out | None,(Intercept),0.6835788668137857,0.47868536090985203,3
+ran_vals,route_combo,Slant | Out | Out,(Intercept),-0.5238182310212354,0.4787063344787783,3
+ran_vals,route_combo,Slant | Out | Post,(Intercept),-0.5186838508184014,0.27151777245411646,3
+ran_vals,route_combo,Slant | Out | Slant,(Intercept),-0.23405551364284405,0.47864093274124053,3
+ran_vals,route_combo,Slant | Post,(Intercept),0.12332117908262175,0.25704331248385814,2
+ran_vals,route_combo,Slant | Post | Corner,(Intercept),0.06766690448818961,0.4118058495811643,3
+ran_vals,route_combo,Slant | Post | Cross,(Intercept),0.7732243662419954,0.47868161961540345,3
+ran_vals,route_combo,Slant | Post | Curl,(Intercept),-0.5136120511280227,0.47867458650099404,3
+ran_vals,route_combo,Slant | Post | Go,(Intercept),-0.28131179412191915,0.4117269244300252,3
+ran_vals,route_combo,Slant | Post | In,(Intercept),0.023648075612546022,0.41138846849934696,3
+ran_vals,route_combo,Slant | Post | None,(Intercept),0.21106227059980145,0.478720388012835,3
+ran_vals,route_combo,Slant | Post | Out,(Intercept),-0.17267214725626692,0.41190739034289964,3
+ran_vals,route_combo,Slant | Post | Post,(Intercept),-0.32559532003948444,0.33374368078215855,3
+ran_vals,route_combo,Slant | Post | Slant,(Intercept),-0.5157455174994954,0.4789879134306668,3
+ran_vals,route_combo,Slant | Slant,(Intercept),0.08684729039588707,0.07156729573966261,2
+ran_vals,route_combo,Slant | Slant | Corner,(Intercept),0.14235452922673786,0.3082556163868574,3
+ran_vals,route_combo,Slant | Slant | Cross,(Intercept),-0.0672773890353083,0.30820703075028205,3
+ran_vals,route_combo,Slant | Slant | Curl,(Intercept),0.5213816923603685,0.2883473371396622,3
+ran_vals,route_combo,Slant | Slant | Flat,(Intercept),-0.036775688778200165,0.17359311582373976,3
+ran_vals,route_combo,Slant | Slant | Go,(Intercept),-0.39040450975452323,0.28823600649841774,3
+ran_vals,route_combo,Slant | Slant | Go | Cross,(Intercept),0.0050452065603388075,0.45301297840088767,4
+ran_vals,route_combo,Slant | Slant | In,(Intercept),-0.18167644891282678,0.33371524583090845,3
+ran_vals,route_combo,Slant | Slant | None,(Intercept),0.860944497302982,0.4114346301580101,3
+ran_vals,route_combo,Slant | Slant | Out,(Intercept),0.05439236534016764,0.41149252932474667,3
+ran_vals,route_combo,Slant | Slant | Post,(Intercept),0.19576689675911135,0.41149049594959164,3
+ran_vals,route_combo,Slant | Slant | Slant,(Intercept),0.40193263756701214,0.18187056325352152,3
+ran_vals,route_combo,Slant | Underneath Screen,(Intercept),-1.4084020280865004,0.5099562296970022,2
+ran_vals,route_combo,Slant | WR Screen,(Intercept),0.28237068987251057,0.5099745079195974,2
+ran_vals,route_combo,Underneath Screen,(Intercept),-0.7603948103027374,0.3272856670139171,1
+ran_vals,route_combo,WR Screen,(Intercept),-0.02179727579415212,0.20549423661132757,1
+ran_vals,route_combo,WR Screen | Comeback,(Intercept),-0.15598453798003944,0.5096632923343857,2
+ran_vals,route_combo,WR Screen | Corner,(Intercept),-0.11108986348804907,0.3166083142967685,2
+ran_vals,route_combo,WR Screen | Corner | Curl,(Intercept),-0.192120339464606,0.25839034775941533,3
+ran_vals,route_combo,WR Screen | Corner | Go,(Intercept),-0.32495985068908056,0.4786996669724552,3
+ran_vals,route_combo,WR Screen | Corner | None,(Intercept),0.01765036172089118,0.2920630609600899,3
+ran_vals,route_combo,WR Screen | Corner | Out,(Intercept),-0.191559918226732,0.3339164693052011,3
+ran_vals,route_combo,WR Screen | Corner | Slant,(Intercept),0.8522926809181982,0.4787839779952991,3
+ran_vals,route_combo,WR Screen | Cross,(Intercept),-0.03732813609611827,0.37970693648280157,2
+ran_vals,route_combo,WR Screen | Cross | In,(Intercept),-0.1697190783078481,0.47868747822233904,3
+ran_vals,route_combo,WR Screen | Curl,(Intercept),-0.23299638114115598,0.22840984868509806,2
+ran_vals,route_combo,WR Screen | Curl | Curl,(Intercept),0.3919767650109207,0.16329695354883003,3
+ran_vals,route_combo,WR Screen | Curl | Curl | Go,(Intercept),0.4204617876839317,0.4528359588774417,4
+ran_vals,route_combo,WR Screen | Curl | Go,(Intercept),-0.11106492913219022,0.4116372575776722,3
+ran_vals,route_combo,WR Screen | Curl | Post | Curl,(Intercept),-0.04744515301701857,0.45283063325502265,4
+ran_vals,route_combo,WR Screen | Flat,(Intercept),-0.09215635242377311,0.5099333677617841,2
+ran_vals,route_combo,WR Screen | Flat | None,(Intercept),0.06859098146218964,0.41164922368067586,3
+ran_vals,route_combo,WR Screen | Go,(Intercept),0.0897195137681335,0.2571454134969324,2
+ran_vals,route_combo,WR Screen | Go | Curl,(Intercept),0.1766214367842342,0.14700155281359703,3
+ran_vals,route_combo,WR Screen | Go | Go,(Intercept),0.19768657339744417,0.2880727154661138,3
+ran_vals,route_combo,WR Screen | Go | Go | Slant,(Intercept),0.2527115321600495,0.45315840769104426,4
+ran_vals,route_combo,WR Screen | Go | In,(Intercept),0.4775303752822102,0.47871056912618437,3
+ran_vals,route_combo,WR Screen | Go | In | Curl,(Intercept),-0.5174586181410817,0.45288647013374633,4
+ran_vals,route_combo,WR Screen | Go | None,(Intercept),-0.44252380858387164,0.4786921653387153,3
+ran_vals,route_combo,WR Screen | Go | Out,(Intercept),-0.020562405352312237,0.20353151131696776,3
+ran_vals,route_combo,WR Screen | Go | Post,(Intercept),-0.2545911790985001,0.4789432282728897,3
+ran_vals,route_combo,WR Screen | Go | Post | Cross,(Intercept),-0.4527455139864149,0.4528286701549704,4
+ran_vals,route_combo,WR Screen | Go | Slant,(Intercept),0.8665313685578446,0.47875174511613877,3
+ran_vals,route_combo,WR Screen | In | Cross | In,(Intercept),0.39567258207005845,0.4528286701549704,4
+ran_vals,route_combo,WR Screen | In | Curl,(Intercept),0.005869703831944753,0.4114152918905642,3
+ran_vals,route_combo,WR Screen | In | Go,(Intercept),0.2366549956903234,0.4786741272301161,3
+ran_vals,route_combo,WR Screen | In | Post | Corner,(Intercept),-0.021126882288184236,0.4532227170898874,4
+ran_vals,route_combo,WR Screen | None,(Intercept),-0.022621702757211662,0.09225036286495493,2
+ran_vals,route_combo,WR Screen | None | Flat,(Intercept),-0.44285385976988295,0.36864175173168356,3
+ran_vals,route_combo,WR Screen | None | Flat | None,(Intercept),-0.5988682727317698,0.45362375732397825,4
+ran_vals,route_combo,WR Screen | None | Go,(Intercept),-0.10914779888794457,0.3104358061323512,3
+ran_vals,route_combo,WR Screen | None | None,(Intercept),-0.04162573396472771,0.08766349233842641,3
+ran_vals,route_combo,WR Screen | None | None | None,(Intercept),-0.05465058027951021,0.2348948168945494,4
+ran_vals,route_combo,WR Screen | Out,(Intercept),0.047235298217627404,0.5096403406545393,2
+ran_vals,route_combo,WR Screen | Out | Go,(Intercept),1.2255842592566155,0.47894903356765206,3
+ran_vals,route_combo,WR Screen | Out | None,(Intercept),0.47900579637523133,0.47921598647480723,3
+ran_vals,route_combo,WR Screen | Post,(Intercept),-0.029470698684281434,0.3799110572794048,2
+ran_vals,route_combo,WR Screen | Post | Curl,(Intercept),0.3364746612447838,0.3339880317240459,3
+ran_vals,route_combo,WR Screen | Post | Flat,(Intercept),-0.6480180093029632,0.4792212045089705,3
+ran_vals,route_combo,WR Screen | Post | In,(Intercept),0.11873382081872473,0.4786722095612302,3
+ran_vals,route_combo,WR Screen | Post | None,(Intercept),-0.5290292658211654,0.3684155441763129,3
+ran_vals,route_combo,WR Screen | Post | Out,(Intercept),-0.0019392138774715446,0.4113454168295105,3
+ran_vals,route_combo,WR Screen | Slant,(Intercept),0.08806044274315059,0.28790812758364925,2
+ran_vals,route_combo,WR Screen | Slant | Curl,(Intercept),0.3034585456788884,0.4787169957519063,3
+ran_vals,route_combo,WR Screen | Slant | Go,(Intercept),0.32273382400228845,0.3667464438007291,3
+ran_vals,route_combo,WR Screen | Slant | None,(Intercept),-0.191389530429089,0.47867309325032686,3
+ran_vals,route_combo,WR Screen | Slant | Slant,(Intercept),-0.48242846156183833,0.47867458650099404,3
+ran_vals,route_combo,WR Screen | Underneath Screen,(Intercept),0.4488760440289737,0.5099573645754026,2
+ran_vals,route_combo,WR Screen | WR Screen,(Intercept),0.22237787340568127,0.41258427760232264,2
+ran_vals,route_combo,WR Screen | WR Screen | None | None,(Intercept),-0.04949601689826035,0.45356723187294534,4
